@@ -1,0 +1,916 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head><meta charset="utf-8"><link rel="apple-touch-icon" sizes="180x180" href="static/picture/apple-touch-icon.png"><link rel="manifest" href="https://nori.com/static/favicons/site.webmanifest"><link rel="mask-icon" href="static/picture/safari-pinned-tab.svg" color="#01788b"><link rel="shortcut icon" href="https://nori.com/static/favicons/favicon.ico"><meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/static/favicons/browserconfig.xml"><meta name="theme-color" content="#ffffff"><link rel="preconnect" href="https://fonts.gstatic.com/"><link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","url":"https://nori.com","name":"Nori","description":"Nori is a company on a mission to reverse climate change by removing enough carbon dioxide from the atmosphere to lower the overall concentration of CO2 below 300 parts per million."}</script><meta name="viewport" content="width=device-width"><meta charset="utf-8"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@nori"><meta name="twitter:creator" content="@nori"><title>About Nori | Nori Carbon Removal Marketplace</title><meta name="robots" content="index,follow"><meta name="googlebot" content="index,follow"><meta name="description" content="Nori is on a mission to reverse climate change. Our goal is clear - create a new way for anyone in the world to buy carbon removals. We&#x27;re doing that through the Nori carbon removal marketplace."><meta name="next-head-count" content="19"><link rel="stylesheet" href="static/css/e5ec5b42389d4aadee73.css" data-n-g=""><noscript data-n-css=""></noscript><style id="jss-server-side">.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #01788B;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #FBBB2C;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 0.75rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+.MuiTypography-root {
+  margin: 0;
+}
+.MuiTypography-body2 {
+  font-size: 0.75rem;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 400;
+  line-height: 1.3333333333333333;
+  letter-spacing: 0.01em;
+}
+.MuiTypography-body1 {
+  font-size: 0.875rem;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 400;
+  line-height: 1.4285714285714286;
+  letter-spacing: 0.01em;
+}
+.MuiTypography-caption {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+}
+.MuiTypography-button {
+  font-size: 0.875rem;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 600;
+  line-height: 1.4285714285714286;
+  letter-spacing: 0.01em;
+}
+.MuiTypography-h1 {
+  font-size: 3rem;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+.MuiTypography-h2 {
+  font-size: 1.75rem;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 700;
+  line-height: 1.4285714285714286;
+  letter-spacing: 0.01em;
+}
+.MuiTypography-h3 {
+  font-size: 1.25rem;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+.MuiTypography-h4 {
+  font-size: 1rem;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+.MuiTypography-h5 {
+  font-size: 0.875rem;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 600;
+  line-height: 1.4285714285714286;
+  letter-spacing: -0.16px;
+}
+.MuiTypography-h6 {
+  font-size: 0.75rem;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 700;
+  line-height: 1.3333333333333333;
+  letter-spacing: 0.5px;
+}
+.MuiTypography-subtitle1 {
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  letter-spacing: 0.00938em;
+}
+.MuiTypography-subtitle2 {
+  font-size: 0.875rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.57;
+  letter-spacing: 0.00714em;
+}
+.MuiTypography-overline {
+  font-size: 0.75rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 2.66;
+  letter-spacing: 0.08333em;
+  text-transform: uppercase;
+}
+.MuiTypography-srOnly {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+.MuiTypography-alignRight {
+  text-align: right;
+}
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+.MuiTypography-colorPrimary {
+  color: #01788B;
+}
+.MuiTypography-colorSecondary {
+  color: #FBBB2C;
+}
+.MuiTypography-colorTextPrimary {
+  color: #1F2123;
+}
+.MuiTypography-colorTextSecondary {
+  color: #4E525A;
+}
+.MuiTypography-colorError {
+  color: #f44336;
+}
+.MuiTypography-displayInline {
+  display: inline;
+}
+.MuiTypography-displayBlock {
+  display: block;
+}
+.MuiContainer-root {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:600px) {
+  .MuiContainer-root {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+  .MuiContainer-disableGutters {
+    padding-left: 0;
+    padding-right: 0;
+  }
+@media (min-width:600px) {
+  .MuiContainer-fixed {
+    max-width: 640px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-fixed {
+    max-width: 768px;
+  }
+}
+@media (min-width:1280px) {
+  .MuiContainer-fixed {
+    max-width: 1024px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-fixed {
+    max-width: 1280px;
+  }
+}
+@media (min-width:0px) {
+  .MuiContainer-maxWidthXs {
+    max-width: 444px;
+  }
+}
+@media (min-width:600px) {
+  .MuiContainer-maxWidthSm {
+    max-width: 640px;
+  }
+}
+@media (min-width:960px) {
+  .MuiContainer-maxWidthMd {
+    max-width: 768px;
+  }
+}
+@media (min-width:1280px) {
+  .MuiContainer-maxWidthLg {
+    max-width: 1024px;
+  }
+}
+@media (min-width:1920px) {
+  .MuiContainer-maxWidthXl {
+    max-width: 1280px;
+  }
+}
+html {
+  background: #ffffff;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+strong, b {
+  font-weight: 700;
+}
+body {
+  color: rgba(0, 0, 0, 0.87);
+  margin: 0;
+  font-size: 0.875rem;
+  min-height: 100vh;
+  font-family: Rubik,"Helvetica","Arial",san-serif;
+  font-weight: 400;
+  line-height: 1.4285714285714286;
+  letter-spacing: 0.01em;
+  background-color: #fafafa;
+}
+@media print {
+  body {
+    background-color: #ffffff;
+  }
+}
+body::backdrop {
+  background-color: #fafafa;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+strong {
+  font-weight: bold;
+}
+li {
+  list-style-type: none;
+}
+  .MuiGrid-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .MuiGrid-item {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .MuiGrid-zeroMinWidth {
+    min-width: 0;
+  }
+  .MuiGrid-direction-xs-column {
+    flex-direction: column;
+  }
+  .MuiGrid-direction-xs-column-reverse {
+    flex-direction: column-reverse;
+  }
+  .MuiGrid-direction-xs-row-reverse {
+    flex-direction: row-reverse;
+  }
+  .MuiGrid-wrap-xs-nowrap {
+    flex-wrap: nowrap;
+  }
+  .MuiGrid-wrap-xs-wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+  .MuiGrid-align-items-xs-center {
+    align-items: center;
+  }
+  .MuiGrid-align-items-xs-flex-start {
+    align-items: flex-start;
+  }
+  .MuiGrid-align-items-xs-flex-end {
+    align-items: flex-end;
+  }
+  .MuiGrid-align-items-xs-baseline {
+    align-items: baseline;
+  }
+  .MuiGrid-align-content-xs-center {
+    align-content: center;
+  }
+  .MuiGrid-align-content-xs-flex-start {
+    align-content: flex-start;
+  }
+  .MuiGrid-align-content-xs-flex-end {
+    align-content: flex-end;
+  }
+  .MuiGrid-align-content-xs-space-between {
+    align-content: space-between;
+  }
+  .MuiGrid-align-content-xs-space-around {
+    align-content: space-around;
+  }
+  .MuiGrid-justify-xs-center {
+    justify-content: center;
+  }
+  .MuiGrid-justify-xs-flex-end {
+    justify-content: flex-end;
+  }
+  .MuiGrid-justify-xs-space-between {
+    justify-content: space-between;
+  }
+  .MuiGrid-justify-xs-space-around {
+    justify-content: space-around;
+  }
+  .MuiGrid-justify-xs-space-evenly {
+    justify-content: space-evenly;
+  }
+  .MuiGrid-spacing-xs-1 {
+    width: calc(100% + 8px);
+    margin: -4px;
+  }
+  .MuiGrid-spacing-xs-1 > .MuiGrid-item {
+    padding: 4px;
+  }
+  .MuiGrid-spacing-xs-2 {
+    width: calc(100% + 16px);
+    margin: -8px;
+  }
+  .MuiGrid-spacing-xs-2 > .MuiGrid-item {
+    padding: 8px;
+  }
+  .MuiGrid-spacing-xs-3 {
+    width: calc(100% + 24px);
+    margin: -12px;
+  }
+  .MuiGrid-spacing-xs-3 > .MuiGrid-item {
+    padding: 12px;
+  }
+  .MuiGrid-spacing-xs-4 {
+    width: calc(100% + 32px);
+    margin: -16px;
+  }
+  .MuiGrid-spacing-xs-4 > .MuiGrid-item {
+    padding: 16px;
+  }
+  .MuiGrid-spacing-xs-5 {
+    width: calc(100% + 40px);
+    margin: -20px;
+  }
+  .MuiGrid-spacing-xs-5 > .MuiGrid-item {
+    padding: 20px;
+  }
+  .MuiGrid-spacing-xs-6 {
+    width: calc(100% + 48px);
+    margin: -24px;
+  }
+  .MuiGrid-spacing-xs-6 > .MuiGrid-item {
+    padding: 24px;
+  }
+  .MuiGrid-spacing-xs-7 {
+    width: calc(100% + 56px);
+    margin: -28px;
+  }
+  .MuiGrid-spacing-xs-7 > .MuiGrid-item {
+    padding: 28px;
+  }
+  .MuiGrid-spacing-xs-8 {
+    width: calc(100% + 64px);
+    margin: -32px;
+  }
+  .MuiGrid-spacing-xs-8 > .MuiGrid-item {
+    padding: 32px;
+  }
+  .MuiGrid-spacing-xs-9 {
+    width: calc(100% + 72px);
+    margin: -36px;
+  }
+  .MuiGrid-spacing-xs-9 > .MuiGrid-item {
+    padding: 36px;
+  }
+  .MuiGrid-spacing-xs-10 {
+    width: calc(100% + 80px);
+    margin: -40px;
+  }
+  .MuiGrid-spacing-xs-10 > .MuiGrid-item {
+    padding: 40px;
+  }
+  .MuiGrid-grid-xs-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-xs-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-xs-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-xs-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-xs-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-xs-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-xs-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-xs-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-xs-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-xs-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-xs-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-xs-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-xs-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-xs-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+@media (min-width:600px) {
+  .MuiGrid-grid-sm-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-sm-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-sm-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-sm-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-sm-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-sm-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-sm-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-sm-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-sm-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-sm-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-sm-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-sm-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-sm-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:960px) {
+  .MuiGrid-grid-md-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-md-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-md-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-md-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-md-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-md-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-md-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-md-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-md-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-md-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-md-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-md-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1280px) {
+  .MuiGrid-grid-lg-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-lg-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1920px) {
+  .MuiGrid-grid-xl-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-xl-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-xl-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-xl-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-xl-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-xl-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-xl-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-xl-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-xl-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-xl-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-xl-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-xl-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-xl-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-xl-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+  .MuiLink-underlineNone {
+    text-decoration: none;
+  }
+  .MuiLink-underlineHover {
+    text-decoration: none;
+  }
+  .MuiLink-underlineHover:hover {
+    text-decoration: underline;
+  }
+  .MuiLink-underlineAlways {
+    text-decoration: underline;
+  }
+  .MuiLink-button {
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    position: relative;
+    user-select: none;
+    border-radius: 0;
+    vertical-align: middle;
+    -moz-appearance: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .MuiLink-button::-moz-focus-inner {
+    border-style: none;
+  }
+  .MuiLink-button.Mui-focusVisible {
+    outline: auto;
+  }
+  .jss7 {
+    cursor: pointer;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+  .jss7:hover {
+    opacity: 0.6;
+  }
+  .jss5 {
+    width: 192px;
+  }
+@media (min-width:0px) {
+  .jss5 {
+    width: 50%;
+  }
+}
+@media (min-width:960px) {
+  .jss5 {
+    width: 33.333333333333336%;
+  }
+}
+@media (min-width:1280px) {
+  .jss5 {
+    width: 16.666666666666668%;
+  }
+}
+  .jss6 {
+    display: block;
+    padding-bottom: 8px;
+  }
+  .jss8 {
+    display: flex;
+    padding-top: 32px;
+    flex-direction: column;
+  }
+@media (min-width:960px) {
+  .jss8 {
+    flex-direction: row;
+  }
+}
+  .jss9 {
+    display: block;
+    padding-left: 0;
+    padding-bottom: 8px;
+  }
+  .jss9:nth-child(1) {
+    padding-left: 0;
+  }
+@media (min-width:960px) {
+  .jss9 {
+    padding-left: 32px;
+    padding-bottom: 0;
+  }
+}
+  .jss10 {
+    padding-top: 32px;
+  }
+  .jss11 {
+    padding: 48px 16px;
+  }
+  .jss12 {
+    display: block;
+  }
+@media (min-width:960px) {
+  .jss12 {
+    display: inline-block;
+  }
+}
+  .jss13 {
+    display: none;
+    padding: 0px 8px;
+    user-select: none;
+  }
+@media (min-width:960px) {
+  .jss13 {
+    display: inline-block;
+  }
+}
+  .jss1 {
+    color: #FFFFFF;
+    font-size: 1rem;
+    background-color: #1F2123;
+  }
+  .jss2 {
+    padding: 48px 16px;
+  }
+  .jss3 {
+    flex-direction: column;
+  }
+@media (min-width:960px) {
+  .jss3 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+  .jss4 {
+    height: 64px;
+    margin-bottom: 64px;
+  }</style><style data-href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">@font-face{font-family:'Rubik';font-style:italic;font-weight:300;font-display:swap;src:url(static/font/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0Uz.woff) format('woff')}@font-face{font-family:'Rubik';font-style:italic;font-weight:400;font-display:swap;src:url(static/font/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0Uz.woff) format('woff')}@font-face{font-family:'Rubik';font-style:italic;font-weight:500;font-display:swap;src:url(static/font/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0Uz.woff) format('woff')}@font-face{font-family:'Rubik';font-style:italic;font-weight:600;font-display:swap;src:url(static/font/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8uDFEUz.woff) format('woff')}@font-face{font-family:'Rubik';font-style:italic;font-weight:700;font-display:swap;src:url(static/font/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUz.woff) format('woff')}@font-face{font-family:'Rubik';font-style:italic;font-weight:800;font-display:swap;src:url(static/font/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8vdFEUz.woff) format('woff')}@font-face{font-family:'Rubik';font-style:italic;font-weight:900;font-display:swap;src:url(static/font/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8v0FEUz.woff) format('woff')}@font-face{font-family:'Rubik';font-style:normal;font-weight:300;font-display:swap;src:url(static/font/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1Uw.woff) format('woff')}@font-face{font-family:'Rubik';font-style:normal;font-weight:400;font-display:swap;src:url(static/font/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1Uw.woff) format('woff')}@font-face{font-family:'Rubik';font-style:normal;font-weight:500;font-display:swap;src:url(static/font/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1Uw.woff) format('woff')}@font-face{font-family:'Rubik';font-style:normal;font-weight:600;font-display:swap;src:url(static/font/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-2Y-1Uw.woff) format('woff')}@font-face{font-family:'Rubik';font-style:normal;font-weight:700;font-display:swap;src:url(static/font/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1Uw.woff) format('woff')}@font-face{font-family:'Rubik';font-style:normal;font-weight:800;font-display:swap;src:url(static/font/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-h4-1Uw.woff) format('woff')}@font-face{font-family:'Rubik';font-style:normal;font-weight:900;font-display:swap;src:url(static/font/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-ro-1Uw.woff) format('woff')}@font-face{font-family:'Rubik';font-style:italic;font-weight:300;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXO61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:italic;font-weight:300;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXq61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:italic;font-weight:300;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXy61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:italic;font-weight:300;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXC61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:italic;font-weight:300;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnX661E_c5Ig.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:italic;font-weight:400;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXO61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:italic;font-weight:400;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXq61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:italic;font-weight:400;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXy61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:italic;font-weight:400;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXC61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:italic;font-weight:400;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnX661E_c5Ig.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:italic;font-weight:500;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXO61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:italic;font-weight:500;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXq61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:italic;font-weight:500;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXy61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:italic;font-weight:500;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXC61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:italic;font-weight:500;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnX661E_c5Ig.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:italic;font-weight:600;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXO61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:italic;font-weight:600;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXq61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:italic;font-weight:600;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXy61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:italic;font-weight:600;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXC61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:italic;font-weight:600;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnX661E_c5Ig.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:italic;font-weight:700;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXO61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:italic;font-weight:700;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXq61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:italic;font-weight:700;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXy61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:italic;font-weight:700;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXC61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:italic;font-weight:700;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnX661E_c5Ig.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:italic;font-weight:800;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXO61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:italic;font-weight:800;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXq61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:italic;font-weight:800;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXy61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:italic;font-weight:800;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXC61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:italic;font-weight:800;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnX661E_c5Ig.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:italic;font-weight:900;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXO61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:italic;font-weight:900;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXq61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:italic;font-weight:900;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXy61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:italic;font-weight:900;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnXC61E_c5IhGzg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:italic;font-weight:900;font-display:swap;src:url(static/font/iJWEBXyIfDnIV7nEnX661E_c5Ig.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:normal;font-weight:300;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nMrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:normal;font-weight:300;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nFrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:normal;font-weight:300;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nDrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:normal;font-weight:300;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nPrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:normal;font-weight:300;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:normal;font-weight:400;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nMrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:normal;font-weight:400;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nFrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:normal;font-weight:400;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nDrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:normal;font-weight:400;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nPrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:normal;font-weight:400;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:normal;font-weight:500;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nMrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:normal;font-weight:500;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nFrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:normal;font-weight:500;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nDrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:normal;font-weight:500;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nPrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:normal;font-weight:500;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:normal;font-weight:600;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nMrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:normal;font-weight:600;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nFrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:normal;font-weight:600;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nDrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:normal;font-weight:600;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nPrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:normal;font-weight:600;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:normal;font-weight:700;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nMrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:normal;font-weight:700;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nFrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:normal;font-weight:700;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nDrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:normal;font-weight:700;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nPrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:normal;font-weight:700;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:normal;font-weight:800;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nMrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:normal;font-weight:800;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nFrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:normal;font-weight:800;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nDrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:normal;font-weight:800;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nPrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:normal;font-weight:800;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Rubik';font-style:normal;font-weight:900;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nMrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Rubik';font-style:normal;font-weight:900;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nFrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Rubik';font-style:normal;font-weight:900;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nDrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0590-05FF,U+200C-2010,U+20AA,U+25CC,U+FB1D-FB4F}@font-face{font-family:'Rubik';font-style:normal;font-weight:900;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nPrXyw023e1Ik.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Rubik';font-style:normal;font-weight:900;font-display:swap;src:url(static/font/iJWKBXyIfDnIV7nBrXyw023e.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style></head><body><noscript><iframe src="ns.html" height="0" width="0" style="display:none;visibility:hidden;"></iframe></noscript><div id="__next"><div><header class="absolute w-full text-gray-900"><div class="relative xl:max-w-screen-lg z-30 mx-auto"><div class="px-4 xl:px-0 py-4"></div></div></header><div class="relative text-gray-900 bg-gray-100"><div class="absolute inset-0"><div class="absolute inset-0 background bg-bottom bg-cover" style="background-image:url(static/picture/default-hero-6c849c13eaab059b9a7d37bca05c4501.jpg)"></div></div><div class="hero-container text-center mx-auto pb-64"><div class="max-w-hero md:mx-auto"><h1>Nori is Reversing Climate Change</h1><h3>We&#x27;re creating a way for anyone in the world to buy carbon removals</h3></div></div></div><section class="inset-0 background bg-center bg-cover py-10 text-gray-900 bg-white"><div class="mx-auto px-4 lg:px-8 max-w-screen-lg pt-10 pb-4"><div class="max-w-header md:mx-auto text-center"><h2 class="">Our Mission</h2></div></div><div class="mx-auto px-4 lg:px-8 max-w-prose mx-auto pb-10"><div class="prose md:text-left"><p>We all understand the threat that climate change presents. Our warming atmosphere puts us on a collision course with extreme weather, food shortages, mass extinction, and social unrest. We’ve already emitted more carbon than is safe, and we’re not reducing fast enough. The threat is real, it will affect everyone, and we’re almost out of time.</p><p>To avoid climate catastrophe, we need to radically reduce our carbon emissions and remove the excess from our atmosphere. The problem is, our current economic system makes it easier and more profitable to emit carbon than to avoid doing so. Maintaining this status quo doesn’t just guarantee climate change, it also prevents businesses doing what they’re best at to be part of the solution. It shouldn’t be this way.</p><p>Instead, we need a platform that makes it easy to fund carbon removal. A platform that allows businesses to help repair our planet by removing any carbon emissions they can’t yet avoid creating. An open platform that everyone can invest in with confidence, no matter how big or small their contribution. A platform that allows individuals, businesses, and nature to thrive, while creating a legacy we can be proud of.</p><p>By creating a massive marketplace for carbon removal, starting with regenerative agriculture projects that store carbon in the soil, we can repair our climate and fund a better future.</p><p>Are you new to carbon removal? <a target="" href="rarible.html">We created a glossary</a> to help you find your way.</p></div></div></section><section class="inset-0 background bg-center bg-cover py-10 text-gray-900 bg-blue-100"><div class="mx-auto px-4 lg:px-8 max-w-screen-lg pt-16 pb-10"><div class="grid gap-24 grid-rows-1 auto-rows-auto"><div class="flex flex-col md:flex-gap-24 items-center md:flex-row-reverse"><div class="w-full mx-auto"><img src="static/picture/Nori_Timeline_2022_update_d131023b64.png" alt="" class="object-contain"></div><div class="w-full pt-6 md:pt-0"><h2 class="max-w-prose">We&#x27;ve been around for a bit; here are our biggest milestones</h2><div class="prose md:text-left"><p><strong>Summer 2017: ConsenSys Blockchain for Social Impact Hackathon</strong><br>Nori co-founders built an MVP business plan and won the <a target="_blank" href="javascript:window.open('https://medium.com/nori-carbon-removal/nori-wins-the-energy-and-environment-section-of-the-blockchain-for-social-impact-hackathon-6c8272e073cd');">Energy and Environment category.</a></p><p><strong>Fall 2017: Nori Founded</strong><br>Hackathon win validates carbon removal idea enough to incorporate Nori as a business.</p><p><strong>Spring 2018: Started Nori US Croplands Methodology</strong><br>Nori started work on its <a target="_blank" href="static/file/croplands-methodology.pdf">US Croplands Methodology</a> and continued it through early 2019.</p><p><strong>Spring 2018: Reversapalooza</strong><br>In 2018, conversations about carbon removal at scale were rare and theoretical. Nori gathered 100+ stakeholders in Seattle and we shared our vision to make large-scale carbon removal possible.</p><p><strong>Fall 2018: UN IPCC Published Report on 1.5C</strong><br>The UN IPCC Report acknowledged that <a target="_blank" href="javascript:window.open('https://www.carbonbrief.org/analysis-why-the-ipcc-1-5c-report-expanded-the-carbon-budget');">carbon removal was necessary to achieve the Paris climate goals</a>; the world began to take carbon removal solutions more seriously.</p><p><strong>Winter 2018: Republic Crowdfunding Campaign and Meet the Drapers</strong><br>Nori raised $145,548 on <a target="_blank" href="javascript:window.open('https://republic.co/nori');">Republic&#x27;s crowdfunding platform</a> when Nori CEO Paul Gambill pitched Nori on an episode of <a target="_blank" href="javascript:window.open('https://www.youtube.com/watch?v=6qAZcmOexb0');">Meet the Drapers</a>, starring VC and Bitcoiner Tim Draper and his legendary family—in partnership with Republic, Sony, and The Times Group.</p><p><strong>Summer 2019: Published Nori US Croplands Methodology</strong><br>Nori publishes first draft of its US Croplands Methodology.</p><p><strong>Fall 2019: Techstars Sustainability Accelerator in Partnership with The Nature Conservancy</strong><br>Nori was accepted into Techstars which provided key training, funding, partnerships, and mentorship.</p><p><strong>Fall 2019: Nori Removal Tonne (NRT) launch</strong><br>The first batch of Nori Removal Tonnes (NRTs) were sold and retired at Harborview Farms, signaling Nori’s 1st successful marketplace transaction of carbon removal.</p><p><strong>Spring 2020: Pre-Seed Funding</strong><br>Nori closes <a target="_blank" href="javascript:window.open('https://www.geekwire.com/2020/seattle-startup-nori-raises-cash-blockchain-marketplace-fight-climate-change/');">$1.3M in pre-seed funding.</a></p><p><strong>Fall 2020: Seed Funding</strong><br>Nori closes <a target="_blank" href="javascript:window.open('https://www.coindesk.com/nori-blockchain-carbon-credits-funding-round');">$4M seed round led by Placeholder</a> (Chris Burniske), who back Filecoin, Polkadot, UMA, and more.</p><p><strong>Coming Soon 2022: Mainnet token launch</strong><br>Nori&#x27;s token, NORI, is scheduled to deploy on Polygon.</p></div></div></div></div></div></section><section class="inset-0 background bg-center bg-cover py-10 text-gray-900 bg-teal-100"><div class="mx-auto px-4 lg:px-8 max-w-screen-lg pt-10 pb-4"><div class="max-w-header md:mx-auto text-center"><h2 class="">The Team</h2></div></div><div class="mx-auto px-4 lg:px-8 max-w-screen-lg pt-8 pb-10"><div data-accordion-component="Accordion" class="max-w-screen-md mx-auto"><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-AlexsandraGuerra" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-AlexsandraGuerra" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/alexsandra_10ef833c78.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Alexsandra Guerra</h3><p class="text-lg text-gray-700">Director of Corporate Development</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-AlexsandraGuerra" id="accordion__panel-AlexsandraGuerra" hidden=""><div class="prose md:text-left"><p>While growing up in Miami FL, Alexsandra learned of the real impacts that climate change could have on our lives. Driven by a deep sense of urgency to prevent the pending disasters of sea-level rise on the place she loved and called home, Alexsandra explored carbon removal, thermodynamics, sustainable energy, and smart grid technology throughout her career. She worked at Southern California Edison before giving into her entrepreneurial nature and joining an amazingly talented team of founders at Nori with the joint mission of reversing climate change through enabling global-scale carbon removal and storage. Her current focus is customer discovery for buyers of carbon removal, looking at the various market trends and forces driving global adoption of carbon removal both including and beyond the corporate sector.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-AmandaYee" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-AmandaYee" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/amanda_yee_2019_square_76ed5688a2.png" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Amanda Yee</h3><p class="text-lg text-gray-700">Senior Product Designer</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-AmandaYee" id="accordion__panel-AmandaYee" hidden=""><div class="prose md:text-left"><p>Amanda is Nori&#x27;s product designer who loves identifying and solving problems in a visual way. She approaches design with active listening to understand what matters to users, gathering learnings, and taking action. She spent the last 5 years building a sales and marketing company from the ground up, seeing it grow from 7 – 400+ people. She&#x27;s now taking her learnings and applying them towards a problem she&#x27;s passionate about - reversing climate change.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-AmieCorso" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-AmieCorso" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/face_large_64363309a2.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Amie Corso</h3><p class="text-lg text-gray-700">Software Engineer</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-AmieCorso" id="accordion__panel-AmieCorso" hidden=""><div class="prose md:text-left"><p>Amie took a less traditional path to software engineering, first earning a B.S. in Chemistry and Environmental Studies from Bowdoin College before eventually pursuing a Master&#x27;s of Computer Science from the University of Oregon. As a graduate student she performed research on blockchain consensus algorithms. After graduating and working for the blockchain and fintech company Ripple, she decided to combine her passions for the environment, sustainable agriculture, data, and blockchain technology and she joined Nori&#x27;s fight to reverse climate change.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-ChristiTaylor" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-ChristiTaylor" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/christianne_taylor_grad_headshot_1_5c0cecce61.png" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Christi Taylor</h3><p class="text-lg text-gray-700">Marketing Specialist</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-ChristiTaylor" id="accordion__panel-ChristiTaylor" hidden=""><div class="prose md:text-left"><p>Christi studied Psychology and Global Studies as an undergraduate at UCLA, fascinated by the intersection of human behavior and global phenomena— like climate change. She interned in communications roles for nonprofit and artist management companies before graduating and switching gears to focus on climate work. Christi worked as a writer and marketer for a sustainability-focused startup before joining Nori’s team. Now, Christi is focused on developing Nori’s marketing strategy and expanding the carbon removal community in an effort to reverse climate change. She enjoys painting, skiing, cinnamon rolls, and reading books by the fireplace.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-GiovanniSornatale" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-GiovanniSornatale" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8.png" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Giovanni Sornatale</h3><p class="text-lg text-gray-700">Sales Representative</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-GiovanniSornatale" id="accordion__panel-GiovanniSornatale" hidden=""><div class="prose md:text-left"><p>Three years ago, Giovanni found himself working for a mission oriented start up aiming to rid the world of unnecessary single-use plastic water bottles. Here, he was exposed to the many problems our society and the ecosystems around us face due to climate change and pollution and became fixated on advancing solutions. After this exposure to the world of venture capital, start ups, design thinking, and climate solutions, Giovanni began to search for the best place to explore these verticals and apply his skill set. Since discovering Nori, he spends his days learning about carbon removal and working with the world of businesses who choose to use their platform to build a climate positive future.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-JadaDormaier" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-JadaDormaier" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/20200715_121127_274a908763.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Jada Dormaier</h3><p class="text-lg text-gray-700">Supply Account Manager</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-JadaDormaier" id="accordion__panel-JadaDormaier" hidden=""><div class="prose md:text-left"><p>Jada works as a Supply Account Manager enrolling farmers in the Nori marketplace. Previously, she worked as a crop insurance agent, insuring the production and revenue of crops across Washington State. She holds a B.S in Economics from Central Washington University and an M.S in Negotiation and Conflict Resolution from Creighton University.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-JaycenHorton" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-JaycenHorton" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/jaycen_daa19b84e5.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Jaycen Horton</h3><p class="text-lg text-gray-700">Principal Blockchain Architect</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-JaycenHorton" id="accordion__panel-JaycenHorton" hidden=""><div class="prose md:text-left"><p>Coming from a background focusing on peer to peer and distributed technical architectures, Jaycen Horton has worked as a Lead Software Engineer for Dell, ASU Decision Theater, and MapStory. Additionally, he worked as an Information Security Engineer for companies including Wells Fargo and other smaller start-up companies. He is also currently the co-organizer of the largest blockchain meetup in Arizona.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-PaulGambill" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-PaulGambill" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/paul_a167b9abc0.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Paul Gambill</h3><p class="text-lg text-gray-700">Chief Executive Officer</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-PaulGambill" id="accordion__panel-PaulGambill" hidden=""><div class="prose md:text-left"><p>Paul is the CEO and one of the co-founders of Nori. In 2015, Paul founded the first known community dedicated to carbon removal called Carbon Removal Seattle. Prior to founding Nori, he was a product manager working at various agencies including Deloitte Digital, where he led teams building mobile apps for Fortune 500 clients including Nike, Showtime, Target, and Starbucks. He earned his Bachelor of Science in Engineering degree from Arizona State University, and his Master of Engineering Management degree from Duke University. Follow Paul on Twitter at <a target="_blank" href="javascript:window.open('https://twitter.com/paulgambill');">twitter.com/paulgambill</a>.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-RadhikaMoolgavkar" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-RadhikaMoolgavkar" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/Radhika_7a8fb0796b.jpg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Radhika Moolgavkar</h3><p class="text-lg text-gray-700">Head of Supply and Methodology </p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-RadhikaMoolgavkar" id="accordion__panel-RadhikaMoolgavkar" hidden=""><div class="prose md:text-left"><p>Radhika leads the supply and methodology group at Nori where she is responsible for operationalizing supply into the Nori marketplace and developing new methodologies. Prior to working at Nori, she led the battery-electric bus program at King County Metro.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-RebekahCarlson" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-RebekahCarlson" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/rebekah_3effdf65b9.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Rebekah Carlson</h3><p class="text-lg text-gray-700">Agriculture Supply Lead</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-RebekahCarlson" id="accordion__panel-RebekahCarlson" hidden=""><div class="prose md:text-left"><p>Rebekah combines her experience in agronomy, science, and crop modeling to help effectively enroll farmers into the Nori marketplace. She earned her B.S. in Biochemistry from Biola University and M.S. in Agronomy and Plant Genetics from the University of Minnesota.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-RichieFarman" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-RichieFarman" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/richie_d75266d777.png" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Richie Farman</h3><p class="text-lg text-gray-700">Software Engineer</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-RichieFarman" id="accordion__panel-RichieFarman" hidden=""><div class="prose md:text-left"><p>Richard is the first graduate of the Computer Science program at Whitman College, bringing full-stack web development skills along with a liberal arts background. He has developed a passion for designing and developing simple solutions for complex problems using rapid prototypes and agile planning. Richie also has a long held interest in public health and safety, producing multiple multimedia campaigns to promote awareness and prevention of issues like drunk driving and colon cancer, and successfully crowdfunded a microbiome research project examining new diet trends.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-RossKenyon" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-RossKenyon" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/Ross_Kenyon_headshot_f16d0481dd.jpg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Ross Kenyon</h3><p class="text-lg text-gray-700">Creative Editor</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-RossKenyon" id="accordion__panel-RossKenyon" hidden=""><div class="prose md:text-left"><p>Ross Kenyon is a cofounder and Nori&#x27;s Creative Editor. Ross has had a varied career, working at an academic center and taking PhD coursework in political philosophy before deciding to play with ideas in filmmaking; primarily screenwriting and producing. He has also worked in technology communications in the blockchain space. He currently leads the development of Nori&#x27;s podcasts and other types of media.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-ScottHoffbergWilson" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-ScottHoffbergWilson" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/Scott_Hoffberg_Wilson_0e9e8af8df.png" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Scott Hoffberg Wilson</h3><p class="text-lg text-gray-700">Head of Engineering</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-ScottHoffbergWilson" id="accordion__panel-ScottHoffbergWilson" hidden=""><div class="prose md:text-left"><p>Scott currently leads the engineering team at Nori. His career has spanned a number of nonprofit, social good and healthcare organizations. He was most recently a software architect with Salesforce.org and prior to that was the founding CTO of AlayaCare -- now the market leader in Canadian home-based healthcare technology. Outside of work Scott loves baking, gardening, tinkering with 3D printers and CNC machines and spending time outside with his family.</p></div></div></div></div></div></section><section class="inset-0 background bg-center bg-cover py-10 text-gray-900 bg-white"><div class="mx-auto px-4 lg:px-8 max-w-screen-lg pt-10 pb-4"><div class="max-w-header md:mx-auto text-center"><h2 class="">Our Advisors</h2></div></div><div class="mx-auto px-4 lg:px-8 max-w-screen-lg pt-8 pb-10"><div data-accordion-component="Accordion" class="max-w-screen-md mx-auto"><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-AldyenDonnelly" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-AldyenDonnelly" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/aldyen_495e5be838.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Aldyen Donnelly</h3><p class="text-lg text-gray-700">Director of Carbon Economics</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-AldyenDonnelly" id="accordion__panel-AldyenDonnelly" hidden=""><div class="prose md:text-left"><p>Aldyen Donnelly is a cofounder of Nori, and has been a small business developer and consultant for over 40 years. In the mid-1990s, Aldyen started to work on market-driven strategies to reduce atmospheric carbon concentrations. Having gathered together an &quot;emission reduction credit&quot; or &quot;ERC&quot; buyers group, Aldyen developed and executed the world&#x27;s first major forward ERC purchase agreement to finance carbon sequestration in agricultural soils, as well as the first ERC sales-financed carbon capture and storage project.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-BobBeth" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-BobBeth" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/bob_beth_10936c240f.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Bob Beth</h3><p class="text-lg text-gray-700">Integrative Visionary</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-BobBeth" id="accordion__panel-BobBeth" hidden=""><div class="prose md:text-left"><p>Bob Beth is a life long tech startup guy and integrative visionary as well as an adventurer and South Pacific sailor. His pioneering involvement with software began in 1974 and he has led the invention of several software products in advanced computing environments. Bob received his degree in Economics from UC Berkeley with an emphasis on market formation.</p><p>Several of his advanced computing customers have been change makers in the financial markets, including at the outset of program trading and derivatives.</p><p>Through his involvement with the World Business Academy, an early climate change think tank and action incubator, Bob acts as a Special Advisor to the Academy’s bold Clean Energy Moonshot for California. He collaborates globally with thought leaders exploring backing cryptocurrencies with improvements in our planet’s natural capital. Bob is currently the co-founder of the Impact Procurement Network.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-DavidAddison" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-DavidAddison" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/DA_photo_for_CRC_3f3868e742.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">David Addison</h3><p class="text-lg text-gray-700">Carbon Removal, Innovation and Net Zero Manager</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-DavidAddison" id="accordion__panel-DavidAddison" hidden=""><div class="prose md:text-left"><p>David Addison works for <a target="_blank" href="javascript:window.open('https://www.virgin.com/');">Virgin</a> on climate action, innovation, purpose and sustainability. For more than 8 years he managed the <a target="_blank" href="javascript:window.open('https://www.virgin.com/about-virgin/virgin-group/news/virgin-earth-challenge');">Virgin Earth Challenge</a>: Sir Richard Branson’s USD $25 million innovation prize for scalable and sustainable ways of removing greenhouse gases from the atmosphere and permanently sequestering them.</p><p>He is a co-founder of the non-profit UK-based <a target="_blank" href="javascript:window.open('https://carbonremovalcentre.com/');">Carbon Removal Centre</a>; volunteers in an advisory role to <a target="_blank" href="javascript:window.open('https://climatescience.org/');">ClimateScience</a> – making learning about climate change accessible and fun for all; served as an advisor to <a target="_blank" href="javascript:window.open('https://carbon180.org/');">Carbon180</a> from its inception; and was part of the community of advisors to the <a target="_blank" href="javascript:window.open('https://www.drawdown.org/the-book');">New York Times Best Seller: Drawdown:</a> the most comprehensive plan ever proposed to reverse global warming.</p><p>David also serves as a member of the jury of the annual German Energy Agency’s <a target="_blank" href="javascript:window.open('https://www.startup-energy-transition.com/');">Startup Energy Transition Award</a>; and was formerly Vice Chair of the Board of Directors for <a target="_blank" href="javascript:window.open('https://studentenergy.org/');">Student Energy:</a> a global charity inspiring the next generation of leaders to unlock a sustainable energy future.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-GillianMuessig" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-GillianMuessig" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/gillian_muessig_22687d5ac0.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Gillian Muessig</h3><p class="text-lg text-gray-700">CEO of Outlines Venture Group</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-GillianMuessig" id="accordion__panel-GillianMuessig" hidden=""><div class="prose md:text-left"><p>Gillian is the CEO of Outlines Venture Group and General Partner of the Sybilla Masters Fund. She is also the cofounder of Moz, the world&#x27;s most popular provider of digital marketing software and analytics and brettapproved, the world&#x27;s fastest growing site for travelers with disabilities and mobility challenges.</p><p>An investor, advisor, and board member on four continents, Gillian serves as a mentor at numerous accelterators and programs including the German Marshall Fund of the U.S. State Department, TechStars, Microsoft Azure, Women in Cloud, and Chinaccelerator. Over the course of her career, she has helped more than 1,000 companies to launch, grow, pivot and thrive.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-JamesLancelot" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-JamesLancelot" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/james_lancelot_1c41128576.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">James Lancelot</h3><p class="text-lg text-gray-700">Digital Marketing &amp; Analytics Expert</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-JamesLancelot" id="accordion__panel-JamesLancelot" hidden=""><div class="prose md:text-left"><p>James Lancelot is a veteran of the Marketing Technology space. James has earned degrees from the University of Florida in Marketing, Entrepreneurship and a Master&#x27;s of International Business. James also holds an Executive MBA from Babson. James has had the pleasure of working at Right Media (Acquired by Yahoo), Turn (Acquired by Singtel) and Invite Media (Acquired by Google). James now heads up the Strategic Engagement Group at Google. This group helps the world&#x27;s most advanced marketers build differentiated marketing and analytics practices. He is an advisor and investor in the Green Tech Space and is currently helping amazing companies in AgTech (Wexus), Solar (PickMySolar) and Carbon Removal (Nori). James lives with his cherished family in San Francisco. James is also a living kidney donor.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-KDHallman" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-KDHallman" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/KD_hallman_753b853cf7.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">KD Hallman</h3><p class="text-lg text-gray-700">Environmentalist, Philanthropist &amp; Investor</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-KDHallman" id="accordion__panel-KDHallman" hidden=""><div class="prose md:text-left"><p>K.D. is an accredited investor with E8 and Alliance of Angels, a strategic advisor and board member for environmental startups, and a Northwest Conservation fellow. She is on the national council for Earthjustice and the Conservation Committee for The Nature Conservancy. K.D. is a retired Microsoft vice president with a passion for addressing environmental issues.</p><p>K.D. brings to the environmental space the experiences, talents, and skills developed during her 35+ year career in the global software industry. During her nearly 25-year tenure at Microsoft, K.D. held both software and/or hardware leadership positions in Office, Windows, Visual Studio, and Research. K.D. served as a corporate technical strategist where she was an advisor to Microsoft’s CEO’s was responsible for setting Microsoft’s semiconductor vision, strategy, and architecture.</p><p>Among her most notable accomplishments include deal lead for various acquisitions and industry impacting efforts such as the 2010 ARM architecture license, 2015-2016 Nokia (semiconductor), and Perceptive Pixels, Inc. K.D. led the development efforts in Natural Language technology which transformed how humans interact with computers through written and spoken human languages. She has a knack for building high performing, high morale teams. She holds over 25 US and European patents.</p></div></div></div><div data-accordion-component="AccordionItem" class="accordion__item"><div data-accordion-component="AccordionItemHeading" role="heading" class="accordion__heading" aria-level="3"><div class="hover:bg-teal-200 p-3 md:p-6" id="accordion__heading-RamezNaam" aria-disabled="false" aria-expanded="false" aria-controls="accordion__panel-RamezNaam" role="button" tabindex="0" data-accordion-component="AccordionItemButton"><div class="flex justify-between items-center"><div class="flex flex-gap-8 items-start flex-col md:flex-row md:items-center"><div class="w-24 h-24"><img class="w-24 h-24 rounded-full" src="static/picture/ramez_naam_db556065d2.jpeg" alt=""></div><div><h3 class="mb-0 text-xl font-medium">Ramez Naam</h3><p class="text-lg text-gray-700">Angel investor, public speaker and award-winning author</p></div></div><svg class="MuiSvgIcon-root transform transition-transform duration-500 ease-in-out -rotate-90 MuiSvgIcon-fontSizeLarge" focusable="false" viewbox="0 0 24 24" aria-hidden="true"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg></div></div></div><div data-accordion-component="AccordionItemPanel" class="px-3 pb-3 pt-1 md:px-6 md:pb-6 md:pt-3 md:ml-32" role="region" aria-labelledby="accordion__heading-RamezNaam" id="accordion__panel-RamezNaam" hidden=""><div class="prose md:text-left"><p>Ramez Naam is a computer scientist, investor, and award-winning author of five books, including The Infinite Resource: The Power of Ideas on a Finite Planet, which charts a path to innovating our way beyond the challenges of climate change, ocean destruction, food, water, energy, population, and more.</p><p>Ramez is the Co-Chair for Energy and Environment at Singularity University at NASA Ames. He speaks around the world on innovation, exponential technology, solving environmental challenges, and disruptive energy technologies.</p><p>Ramez’s seminal 2011 Scientific American article, “Smaller, Cheaper, Faster” observed that the price of solar power was dropping exponentially and would eventually be lower than that of any other energy source. He’s since detailed the exponential trends in wind power, energy storage, and electric vehicles. His observations have been quoted by Nobel laureate Paul Krugman and by energy, climate, and financial analysts around the world. Ramez’s work has appeared in or been quoted in The New York Times, The Wall Street Journal, The Economist, The Atlantic, Slate, Business Week, Discover, Wired, and Scientific American.</p><p>In addition to his energy analysis, Ramez is an angel investor in numerous clean energy startups, a board member of E8 Angels, and the founder and leader of the first AngelList syndicate devoted to clean technology.</p></div></div></div></div></div></section><section class="inset-0 background bg-center bg-cover py-10 text-gray-900 bg-gray-100"><div class="mx-auto px-4 lg:px-8 max-w-screen-lg pt-8 pb-10"><div class="flex flex-gap-24 flex-col md:flex-row justify-between"><div class="flex flex-col md:w-1/2"><h2>Stay up to date with our newsletter</h2><p>Each week, Nori offers insights and shares success stories on how removing excess carbon dioxide from the atmosphere is impacting our climate, and details on our marketplace progress and buildout for launch.</p><div class="mb-3 pt-2"><span><label class="block font-bold mb-1">Sign up to ensure you don’t miss an issue.</label><div class="relative rounded"><input name="Email address" placeholder="Email address" class="block w-full p-3 text-xl placeholder-gray-500 placeholder-opacity-100 text-gray-900 rounded hover:border-teal-400 focus:border-teal-500 disabled:bg-gray-300 disabled:placeholder-gray-500 border-gray-300"></div></span></div><a target="_blank" rel="noopener noreferrer" class="py-1.5 px-6 text-sm md:py-2.5 md:px-7 font-bold rounded focus:ring-4 focus:ring-teal-700 focus:ring-opacity-50 text-center bg-gray-300 text-gray-500 cursor-not-allowed pointer-events-none w-full" href="javascript:window.open('https://share.hsforms.com/11f-FBP-OTUSfvFkwllT4oQ3rvhm?email=');">Subscribe to Newsletter</a></div><div class="md:w-1/2"><h2 class="max-w-prose">Or just say hello!</h2><div class="prose md:text-left"><p>You can email us at <a target="" href="email-protection.html#432b262f2f2c032d2c312a6d202c2e"><span class="__cf_email__" data-cfemail="b7dfd2dbdbd8f7d9d8c5de99d4d8da">[email&#160;protected]</span></a>.</p></div><div class="flex flex-wrap flex-gap-8 pt-4"><a target="_blank" rel="noopener noreferrer" href="javascript:window.open('https://www.facebook.com/NoriCarbonRemoval/');"><img src="static/picture/facebook_81cf481374.png" class="w-12 h-12" alt="Facebook"></a><a target="_blank" rel="noopener noreferrer" href="javascript:window.open('https://twitter.com/nori');"><img src="static/picture/twitter_f810a38518.png" class="w-12 h-12" alt="Twitter"></a><a target="_blank" rel="noopener noreferrer" href="javascript:window.open('https://www.youtube.com/channel/UCnNvzB1J0HZVyO-v6eIWjDA/featured');"><img src="static/picture/youtube_6d5d1ca6dc.png" class="w-12 h-12" alt="YouTube"></a><a target="_blank" rel="noopener noreferrer" href="javascript:window.open('https://www.instagram.com/noricarbonremoval');"><img src="static/picture/instagram_f766a967b8.png" class="w-12 h-12" alt="Instagram"></a><a target="_blank" rel="noopener noreferrer" href="javascript:window.open('https://www.linkedin.com/company/noricarbonremoval/');"><img src="static/picture/linkedin_eb3333cd74.png" class="w-12 h-12" alt="LinkedIn"></a></div></div></div></div></section><div class="jss1"><div class="MuiContainer-root jss2 MuiContainer-maxWidthXl"><img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDIyIiBoZWlnaHQ9IjEzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNzguNDk4IDc3LjM1OGwtMzAuMDcyIDM4LjQyNGMtMS40MjggMS44MjUtMS4wNTQgNC40ODMuOTEzIDUuNzA4YTY1LjE3NyA2NS4xNzcgMCAwMDM0LjQ4NyA5Ljg1OWMuNzEgMCAxLjMzMS4wMjIgMi4wMzcgMCAxNi44MjMtLjcwMiAzMC4xMTktNi44NDQgMzkuMzk4LTE0Ljg2NSA2LjU0Ny01LjM5OCAxMi44NzctMTIuOTcgMTQuOTEzLTE5LjA4IDIuMjM4LTYuNzE0LTEzLjgxMi0zMC45ODQtMjQuNDc3LTQwLjc1Mi0xLjcyOC0xLjU4My00LjM1NS0uOTkyLTUuNTM5IDEuMDMxTDkzLjgyNSA4NS42MWMtMS4wOSAxLjg2MS0zLjgwOSAxLjc3Mi00Ljc3My0uMTU3bC0zLjcwMy03LjQwNmMtMS4zMzgtMi42NzUtNS4wMDgtMy4wNDQtNi44NTEtLjY4OXoiIGZpbGw9IiNGOEY5RjkiLz48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE0OSA2Ni4yMDJDMTQ5IDMwLjE5MiAxMTkuODA4IDEgODMuNzk4IDFoLS4wMDJDNDkuNTkxIDEgMjEuNTM4IDI3LjM1NSAxOC44MTIgNjAuODU5Yy0uMTE4IDEuNDUxLTEuMzEgMi42MDMtMi43NjUgMi42MDJMMi4zOTIgNjMuNDZDLjg2IDYzLjQ2LjAyMiA2NS40NzcgMSA2Ni44MWwzMC41NSAzOC43NDFjMS40NDcgMS45NzEgNC40NTggMS45NzEgNS45MDUgMEw2Ny40NDggNjYuODFjLjk3OC0xLjMzMi40MzUtMy4zMzUtMS4wOTctMy4zMzVsLTEzLjM1My0uMDAzYy0xLjYwNCAwLTIuODY3LTEuMzg3LTIuNTc0LTIuOTY0LjE2NC0uODguMzYtMS43NDcuNTktMi42MDIgMy41MDctMTUuNjMgMjEuMDMtMzAuMDEgNDIuOTcyLTI3LjcgOC4yMzEuODY3IDM2LjYzOCA0LjU3MiA1MS4yNTQgNDkuNjEuMzE1Ljk3IDEuNjcyLjk2MyAxLjkwMi0uMDMuNzk2LTMuNDQyIDEuODU4LTguOTEgMS44NTgtMTMuNTgzeiIgZmlsbD0iI0Y0NkUyMyIvPjxwYXRoIGQ9Ik0xODAuMTI2IDEwOC44NDJjLS44NDkgMC0xLjU4Mi0uMzA5LTIuMi0uOTI2LS42MTctLjYxOC0uOTI2LTEuMzUxLS45MjYtMi4ydi03NC44YzAtLjg1LjMwOS0xLjU4My45MjYtMi4yLjYxOC0uNjE4IDEuMzUxLS45MjcgMi4yLS45MjdoMTguMjk1YzEuNTQ0IDAgMi42NjMuMzQ4IDMuMzU4IDEuMDQzLjY5NS42OTQgMS4xNTggMS4yMzUgMS4zODkgMS42MmwxOS41NjkgMzIuMDc0di0zMS42MWMwLS44NS4zMDktMS41ODMuOTI2LTIuMi42MTgtLjYxOCAxLjM1MS0uOTI3IDIuMi0uOTI3aDIwLjk1OGMuODQ5IDAgMS41ODMuMzEgMi4yLjkyNy42MTguNjE3LjkyNiAxLjM1LjkyNiAyLjJ2NzQuOGMwIC44NDktLjMwOCAxLjU4Mi0uOTI2IDIuMi0uNjE3LjYxNy0xLjM1MS45MjYtMi4yLjkyNmgtMTguMjk1Yy0xLjU0NCAwLTIuNjYzLS4zNDctMy4zNTgtMS4wNDItLjY5NC0uNzcyLTEuMTU3LTEuMzEyLTEuMzg5LTEuNjIxbC0xOS41NjgtMjkuNTI2djI5LjA2M2MwIC44NDktLjMwOSAxLjU4Mi0uOTI3IDIuMi0uNjE3LjYxNy0xLjM1MS45MjYtMi4yLjkyNmgtMjAuOTU4ek0yOTEuNTExIDExMGMtNy4xMDEgMC0xMy4wODQtLjk2NS0xNy45NDctMi44OTUtNC44NjMtMS45My04LjYwNy00LjgyNC0xMS4yMzItOC42ODQtMi41NDctMy44Ni00LjAxNC04LjYwNy00LjQtMTQuMjQyLS4wNzctMS43NzYtLjExNS0zLjU5LS4xMTUtNS40NDIgMC0xLjkzLjAzOC0zLjc0NC4xMTUtNS40NDIuMzg2LTUuNzEzIDEuOTY5LTEwLjQ2IDQuNzQ4LTE0LjI0MiAyLjc3OS0zLjg2IDYuNi02Ljc1NSAxMS40NjMtOC42ODUgNC44NjMtMS45MyAxMC42NTMtMi44OTQgMTcuMzY4LTIuODk0IDYuNzE2IDAgMTIuNTA2Ljk2NSAxNy4zNjkgMi44OTQgNC44NjMgMS45MyA4LjY4NCA0LjgyNSAxMS40NjMgOC42ODUgMi43NzkgMy43ODIgNC4zNjEgOC41MyA0Ljc0NyAxNC4yNDIuMTU1IDEuNjk4LjIzMiAzLjUxMi4yMzIgNS40NDJhNjIuNTYgNjIuNTYgMCAwMS0uMjMyIDUuNDQyYy0uMzg2IDUuNjM1LTEuODkxIDEwLjM4Mi00LjUxNiAxNC4yNDItMi41NDcgMy44Ni02LjI1MiA2Ljc1NC0xMS4xMTUgOC42ODQtNC44NjMgMS45My0xMC44NDYgMi44OTUtMTcuOTQ4IDIuODk1em0wLTE4LjUyNmMyLjIzOSAwIDMuNjI4LS42MTggNC4xNjktMS44NTMuNTQtMS4zMTIuODg3LTMuMzIgMS4wNDItNi4wMjEuMDc3LTEuMTU4LjExNi0yLjc3OS4xMTYtNC44NjMgMC0yLjA4NC0uMDM5LTMuNzA1LS4xMTYtNC44NjMtLjE1NS0yLjU0OC0uNTAyLTQuNDc3LTEuMDQyLTUuNzktLjU0MS0xLjM5LTEuOTMtMi4wODQtNC4xNjktMi4wODQtMi4xNjEgMC0zLjU1MS42OTUtNC4xNjggMi4wODQtLjU0IDEuMzEzLS44ODggMy4yNDItMS4wNDIgNS43OS0uMDc3IDEuMTU4LS4xMTYgMi43NzktLjExNiA0Ljg2MyAwIDIuMDg0LjAzOSAzLjcwNS4xMTYgNC44NjMuMTU0IDIuNzAyLjUwMiA0LjcwOSAxLjA0MiA2LjAyMS42MTcgMS4yMzUgMi4wMDcgMS44NTMgNC4xNjggMS44NTN6bTQ1LjQwNCAxNy4zNjhjLS44NDkgMC0xLjU4Mi0uMzA5LTIuMi0uOTI2LS42MTctLjYxOC0uOTI2LTEuMzUxLS45MjYtMi4yVjUxLjc1OGMwLS44NS4zMDktMS41ODMuOTI2LTIuMi42MTgtLjYxOCAxLjM1MS0uOTI2IDIuMi0uOTI2aDIwLjI2NGMuODQ5IDAgMS41ODIuMzA4IDIuMi45MjYuNjE3LjYxNy45MjYgMS4zNS45MjYgMi4ydjQuMDUyYTMxLjU1NCAzMS41NTQgMCAwMTguMjIxLTUuMjFjMy4wODgtMS4zMTIgNi4zNjgtMS45NjggOS44NDItMS45NjhoNS41NThjLjg0OSAwIDEuNTgyLjMwOCAyLjIuOTI2LjYxNy42MTcuOTI2IDEuMzUuOTI2IDIuMlY2OS44MmMwIC44NS0uMzA5IDEuNTgyLS45MjYgMi4yLS42MTguNjE4LTEuMzUxLjkyNi0yLjIuOTI2aC0xNC45MzdjLTIuMzE2IDAtNC4wNTMuNTgtNS4yMSAxLjczNy0xLjE1OCAxLjE1OC0xLjczNyAyLjg5NS0xLjczNyA1LjIxdjI1LjgyMmMwIC44NDktLjMwOSAxLjU4Mi0uOTI3IDIuMi0uNjE3LjYxNy0xLjM1LjkyNi0yLjIuOTI2aC0yMnptNjAuODc1IDBjLS44NDkgMC0xLjU4Mi0uMzA5LTIuMi0uOTI2LS42MTctLjYxOC0uOTI2LTEuMzUxLS45MjYtMi4yVjUxLjc1OGMwLS44NS4zMDktMS41ODMuOTI2LTIuMi42MTgtLjYxOCAxLjM1MS0uOTI2IDIuMi0uOTI2aDIwLjcyN2MuODQ5IDAgMS41ODIuMzA4IDIuMi45MjYuNjE3LjYxNy45MjYgMS4zNS45MjYgMi4ydjUzLjk1OGMwIC44NDktLjMwOSAxLjU4Mi0uOTI2IDIuMi0uNjE4LjYxNy0xLjM1MS45MjYtMi4yLjkyNkgzOTcuNzl6bS41NzktNjYuNTc5Yy0uODQ5IDAtMS41ODItLjMwOS0yLjItLjkyNi0uNjE3LS42MTgtLjkyNi0xLjM1MS0uOTI2LTIuMnYtMTQuMDFjMC0uODUuMzA5LTEuNTgzLjkyNi0yLjIuNjE4LS42MTggMS4zNTEtLjkyNyAyLjItLjkyN2gxOS41NjljLjg0OSAwIDEuNTgyLjMwOSAyLjIuOTI2LjYxNy42MTguOTI2IDEuMzUxLjkyNiAyLjJ2MTQuMDFjMCAuODUtLjMwOSAxLjU4My0uOTI2IDIuMi0uNjE4LjYxOC0xLjM1MS45MjctMi4yLjkyN2gtMTkuNTY5eiIgZmlsbD0iI0Y4RjlGOSIvPjwvc3ZnPg==" class="jss4" href="/"><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root jss5 MuiGrid-item"><div><h4 class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom">Businesses</h4><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="for-business.html">Buying For Your Business</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="generate-nrts.html">How Nori Works</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="carbon-neutral-blockchain.html">NFTs and Blockchain</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="subscriptions.html">Subscriptions</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="integrations.html">Integrations</a></span></div></div><div class="MuiGrid-root jss5 MuiGrid-item"><div><h4 class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom">Growers</h4><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="growers.html">Nori is Farmer Forward</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="marketplace-values.html">Practices, Persistence &amp; Permanence</a></span></div></div><div class="MuiGrid-root jss5 MuiGrid-item"><div><h4 class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom">NFTs and Crypto</h4><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="token.html">NORI Token</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="climate-nft.html">NFT Artists</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="carbon-neutral-blockchain.html">Partnerships</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="integrations.html">Integrations</a></span></div></div><div class="MuiGrid-root jss5 MuiGrid-item"><div><h4 class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom">Community</h4><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="blog.html">Blog</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="events.html">Events</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="podcasts.html">Podcasts</a></span></div></div><div class="MuiGrid-root jss5 MuiGrid-item"><div><h4 class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom">Resources</h4><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="documents.html">Documents</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="videos.html">Videos</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="faq.html">FAQ</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="javascript:window.open('https://noricarbonremoval.freshdesk.com/support/home');">Support</a></span></div></div><div class="MuiGrid-root jss5 MuiGrid-item"><div><h4 class="MuiTypography-root MuiTypography-h4 MuiTypography-gutterBottom">Company</h4><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="">About Us</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="news.html">News</a></span><span class="jss6"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="careers.html">Careers</a></span></div></div></div><div class="MuiGrid-root jss3 MuiGrid-container"><div class="MuiGrid-root MuiGrid-item"><div class="jss8"><span class="jss9"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="javascript:window.open('https://nori.com/resources/terms-of-use');">Terms &amp; Conditions</a></span><span class="jss9"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="javascript:window.open('https://nori.com/resources/privacy-policy');">Privacy Policy</a></span><span class="jss9"><a class="MuiTypography-root MuiLink-root MuiLink-underlineHover jss7 MuiTypography-colorInherit" href="javascript:window.open('https://nori.com/resources/fulfillment-policy');">Fulfillment Policy</a></span></div></div><div class="MuiGrid-root MuiGrid-item"><div class="jss10"><span class="jss12">© <!-- -->2022<!-- --> Nori, Inc.</span><span class="jss13">|</span><span class="jss12">2208 NW Market St, #403</span><span class="jss13">|</span><span class="jss12">Seattle, WA 98107</span></div></div></div></div></div></div></div><script data-cfasync="false" src="static/js/email-decode.min.js"></script><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"featureFlags":{"web3":"off","fifoTokenCheckout":"off"},"userKey":"anonymous","id":9,"preview":null,"content":[{"__component":"elements.header","id":16,"title":"Our Mission","subtitle":"","tagline":null},{"__component":"elements.markdown","id":1,"markdown":"We all understand the threat that climate change presents. Our warming atmosphere puts us on a collision course with extreme weather, food shortages, mass extinction, and social unrest. We’ve already emitted more carbon than is safe, and we’re not reducing fast enough. The threat is real, it will affect everyone, and we’re almost out of time.\n\nTo avoid climate catastrophe, we need to radically reduce our carbon emissions and remove the excess from our atmosphere. The problem is, our current economic system makes it easier and more profitable to emit carbon than to avoid doing so. Maintaining this status quo doesn’t just guarantee climate change, it also prevents businesses doing what they’re best at to be part of the solution. It shouldn’t be this way.\n\nInstead, we need a platform that makes it easy to fund carbon removal. A platform that allows businesses to help repair our planet by removing any carbon emissions they can’t yet avoid creating. An open platform that everyone can invest in with confidence, no matter how big or small their contribution. A platform that allows individuals, businesses, and nature to thrive, while creating a legacy we can be proud of.\n\nBy creating a massive marketplace for carbon removal, starting with regenerative agriculture projects that store carbon in the soil, we can repair our climate and fund a better future.\n  \nAre you new to carbon removal? [We created a glossary](https://nori.com/carbon-removal-glossary) to help you find your way.","align":"left"},{"__component":"layouts.section","id":117,"backgroundColor":"blue","theme":"light","backgroundImage":null},{"__component":"groups.row-group","id":37,"items":[{"id":116,"title":"We've been around for a bit; here are our biggest milestones","description":"**Summer 2017: ConsenSys Blockchain for Social Impact Hackathon**  \nNori co-founders built an MVP business plan and won the [Energy and Environment category.](https://medium.com/nori-carbon-removal/nori-wins-the-energy-and-environment-section-of-the-blockchain-for-social-impact-hackathon-6c8272e073cd)  \n  \n**Fall 2017: Nori Founded**  \nHackathon win validates carbon removal idea enough to incorporate Nori as a business.  \n  \n**Spring 2018: Started Nori US Croplands Methodology**  \nNori started work on its [US Croplands Methodology](static/file/croplands-methodology.pdf) and continued it through early 2019.  \n  \n**Spring 2018: Reversapalooza**  \nIn 2018, conversations about carbon removal at scale were rare and theoretical. Nori gathered 100+ stakeholders in Seattle and we shared our vision to make large-scale carbon removal possible.  \n  \n**Fall 2018: UN IPCC Published Report on 1.5C**  \nThe UN IPCC Report acknowledged that [carbon removal was necessary to achieve the Paris climate goals](https://www.carbonbrief.org/analysis-why-the-ipcc-1-5c-report-expanded-the-carbon-budget); the world began to take carbon removal solutions more seriously.  \n  \n**Winter 2018: Republic Crowdfunding Campaign and Meet the Drapers**  \nNori raised $145,548 on [Republic's crowdfunding platform](https://republic.co/nori) when Nori CEO Paul Gambill pitched Nori on an episode of [Meet the Drapers](https://www.youtube.com/watch?v=6qAZcmOexb0), starring VC and Bitcoiner Tim Draper and his legendary family—in partnership with Republic, Sony, and The Times Group.  \n  \n**Summer 2019: Published Nori US Croplands Methodology**  \nNori publishes first draft of its US Croplands Methodology.  \n  \n**Fall 2019: Techstars Sustainability Accelerator in Partnership with The Nature Conservancy**  \nNori was accepted into Techstars which provided key training, funding, partnerships, and mentorship.  \n  \n**Fall 2019: Nori Removal Tonne (NRT) launch**  \nThe first batch of Nori Removal Tonnes (NRTs) were sold and retired at Harborview Farms, signaling Nori’s 1st successful marketplace transaction of carbon removal.   \n  \n**Spring 2020: Pre-Seed Funding**  \nNori closes [$1.3M in pre-seed funding.](https://www.geekwire.com/2020/seattle-startup-nori-raises-cash-blockchain-marketplace-fight-climate-change/)  \n  \n**Fall 2020: Seed Funding**  \nNori closes [$4M seed round led by Placeholder](https://www.coindesk.com/nori-blockchain-carbon-credits-funding-round) (Chris Burniske), who back Filecoin, Polkadot, UMA, and more.  \n  \n**Coming Soon 2022: Mainnet token launch**  \nNori's token, NORI, is scheduled to deploy on Polygon.","url":null,"buttons":[],"media":{"id":164,"videoUrl":null,"imageOrVideo":{"id":406,"name":"Nori_Timeline_2022_update.png","alternativeText":"","caption":"","width":912,"height":2992,"formats":{"large":{"ext":".png","url":"static/picture/large_Nori_Timeline_2022_update_d131023b64.png","hash":"large_Nori_Timeline_2022_update_d131023b64","mime":"image/jpeg","name":"large_Nori_Timeline_2022_update.png","path":null,"size":43.48,"width":305,"height":1000},"small":{"ext":".png","url":"static/picture/small_Nori_Timeline_2022_update_d131023b64.png","hash":"small_Nori_Timeline_2022_update_d131023b64","mime":"image/jpeg","name":"small_Nori_Timeline_2022_update.png","path":null,"size":14.89,"width":152,"height":500},"medium":{"ext":".png","url":"static/picture/medium_Nori_Timeline_2022_update_d131023b64.png","hash":"medium_Nori_Timeline_2022_update_d131023b64","mime":"image/jpeg","name":"medium_Nori_Timeline_2022_update.png","path":null,"size":29.25,"width":229,"height":750},"thumbnail":{"ext":".png","url":"static/picture/thumbnail_Nori_Timeline_2022_update_d131023b64.png","hash":"thumbnail_Nori_Timeline_2022_update_d131023b64","mime":"image/jpeg","name":"thumbnail_Nori_Timeline_2022_update.png","path":null,"size":2.57,"width":48,"height":156}},"hash":"Nori_Timeline_2022_update_d131023b64","ext":".png","mime":"image/jpeg","size":210.63,"url":"static/picture/Nori_Timeline_2022_update_d131023b64.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2022-01-25T16:54:38.862Z","updated_at":"2022-07-19T01:09:50.590Z"},"videoThumbnail":null}}]},{"__component":"layouts.section","id":21,"backgroundColor":"teal","theme":"light","backgroundImage":null},{"__component":"elements.header","id":55,"title":"The Team","subtitle":null,"tagline":null},{"__component":"collections.norinauts-collection","id":1,"norinauts":[{"id":2,"name":"Alexsandra Guerra","title":"Director of Corporate Development","description":"While growing up in Miami FL, Alexsandra learned of the real impacts that climate change could have on our lives. Driven by a deep sense of urgency to prevent the pending disasters of sea-level rise on the place she loved and called home, Alexsandra explored carbon removal, thermodynamics, sustainable energy, and smart grid technology throughout her career. She worked at Southern California Edison before giving into her entrepreneurial nature and joining an amazingly talented team of founders at Nori with the joint mission of reversing climate change through enabling global-scale carbon removal and storage. Her current focus is customer discovery for buyers of carbon removal, looking at the various market trends and forces driving global adoption of carbon removal both including and beyond the corporate sector.","published_at":"2021-03-12T02:00:15.636Z","created_at":"2021-03-10T20:36:35.483Z","updated_at":"2021-04-23T21:17:31.422Z","photo":{"id":87,"name":"alexsandra.jpeg","alternativeText":"","caption":"","width":500,"height":500,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_alexsandra_10ef833c78.jpeg","hash":"thumbnail_alexsandra_10ef833c78","mime":"image/jpeg","name":"thumbnail_alexsandra.jpeg","path":null,"size":5.52,"width":156,"height":156}},"hash":"alexsandra_10ef833c78","ext":".jpeg","mime":"image/jpeg","size":29.54,"url":"static/picture/alexsandra_10ef833c78.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:29:33.109Z","updated_at":"2021-04-05T14:29:33.124Z"}},{"id":6,"name":"Amanda Yee","title":"Senior Product Designer","description":"Amanda is Nori's product designer who loves identifying and solving problems in a visual way. She approaches design with active listening to understand what matters to users, gathering learnings, and taking action. She spent the last 5 years building a sales and marketing company from the ground up, seeing it grow from 7 – 400+ people. She's now taking her learnings and applying them towards a problem she's passionate about - reversing climate change.","published_at":"2021-03-12T02:00:20.932Z","created_at":"2021-03-10T20:39:00.174Z","updated_at":"2021-05-07T19:08:30.281Z","photo":{"id":157,"name":"amanda_yee_2019_square.png","alternativeText":"","caption":"","width":514,"height":514,"formats":{"small":{"ext":".png","url":"static/picture/small_amanda_yee_2019_square_76ed5688a2.png","hash":"small_amanda_yee_2019_square_76ed5688a2","mime":"image/png","name":"small_amanda_yee_2019_square.png","path":null,"size":438.38,"width":500,"height":500},"thumbnail":{"ext":".png","url":"static/picture/thumbnail_amanda_yee_2019_square_76ed5688a2.png","hash":"thumbnail_amanda_yee_2019_square_76ed5688a2","mime":"image/png","name":"thumbnail_amanda_yee_2019_square.png","path":null,"size":46.49,"width":156,"height":156}},"hash":"amanda_yee_2019_square_76ed5688a2","ext":".png","mime":"image/png","size":400.77,"url":"static/picture/amanda_yee_2019_square_76ed5688a2.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-05-07T19:08:27.506Z","updated_at":"2021-05-07T19:08:27.520Z"}},{"id":26,"name":"Amie Corso","title":"Software Engineer","description":"Amie took a less traditional path to software engineering, first earning a B.S. in Chemistry and Environmental Studies from Bowdoin College before eventually pursuing a Master's of Computer Science from the University of Oregon.  As a graduate student she performed research on blockchain consensus algorithms.  After graduating and working for the blockchain and fintech company Ripple, she decided to combine her passions for the environment, sustainable agriculture, data, and blockchain technology and she joined Nori's fight to reverse climate change.","published_at":"2021-05-06T03:00:43.833Z","created_at":"2021-05-06T03:00:37.666Z","updated_at":"2021-05-06T03:00:43.865Z","photo":{"id":151,"name":"face_large.jpeg","alternativeText":"","caption":"","width":2002,"height":1970,"formats":{"large":{"ext":".jpeg","url":"static/picture/large_face_large_64363309a2.jpeg","hash":"large_face_large_64363309a2","mime":"image/jpeg","name":"large_face_large.jpeg","path":null,"size":82.65,"width":1000,"height":984},"small":{"ext":".jpeg","url":"static/picture/small_face_large_64363309a2.jpeg","hash":"small_face_large_64363309a2","mime":"image/jpeg","name":"small_face_large.jpeg","path":null,"size":29.21,"width":500,"height":492},"medium":{"ext":".jpeg","url":"static/picture/medium_face_large_64363309a2.jpeg","hash":"medium_face_large_64363309a2","mime":"image/jpeg","name":"medium_face_large.jpeg","path":null,"size":54.16,"width":750,"height":738},"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_face_large_64363309a2.jpeg","hash":"thumbnail_face_large_64363309a2","mime":"image/jpeg","name":"thumbnail_face_large.jpeg","path":null,"size":5.5,"width":159,"height":156}},"hash":"face_large_64363309a2","ext":".jpeg","mime":"image/jpeg","size":252.55,"url":"static/picture/face_large_64363309a2.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-05-06T02:59:44.887Z","updated_at":"2021-05-06T02:59:44.910Z"}},{"id":27,"name":"Christi Taylor","title":"Marketing Specialist","description":"Christi studied Psychology and Global Studies as an undergraduate at UCLA, fascinated by the intersection of human behavior and global phenomena— like climate change. She interned in communications roles for nonprofit and artist management companies before graduating and switching gears to focus on climate work. Christi worked as a writer and marketer for a sustainability-focused startup before joining Nori’s team. Now, Christi is focused on developing Nori’s marketing strategy and expanding the carbon removal community in an effort to reverse climate change. She enjoys painting, skiing, cinnamon rolls, and reading books by the fireplace. ","published_at":"2021-05-07T23:55:35.051Z","created_at":"2021-05-07T23:54:20.469Z","updated_at":"2022-06-10T19:49:52.605Z","photo":{"id":570,"name":"christianne_taylor_grad_headshot 1.png","alternativeText":"","caption":"","width":805,"height":805,"formats":{"small":{"ext":".png","url":"static/picture/small_christianne_taylor_grad_headshot_1_5c0cecce61.png","hash":"small_christianne_taylor_grad_headshot_1_5c0cecce61","mime":"image/png","name":"small_christianne_taylor_grad_headshot 1.png","path":null,"size":691.07,"width":500,"height":500},"medium":{"ext":".png","url":"static/picture/medium_christianne_taylor_grad_headshot_1_5c0cecce61.png","hash":"medium_christianne_taylor_grad_headshot_1_5c0cecce61","mime":"image/png","name":"medium_christianne_taylor_grad_headshot 1.png","path":null,"size":1508.45,"width":750,"height":750},"thumbnail":{"ext":".png","url":"static/picture/thumbnail_christianne_taylor_grad_headshot_1_5c0cecce61.png","hash":"thumbnail_christianne_taylor_grad_headshot_1_5c0cecce61","mime":"image/png","name":"thumbnail_christianne_taylor_grad_headshot 1.png","path":null,"size":72.86,"width":156,"height":156}},"hash":"christianne_taylor_grad_headshot_1_5c0cecce61","ext":".png","mime":"image/png","size":1081.28,"url":"static/picture/christianne_taylor_grad_headshot_1_5c0cecce61.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2022-06-10T19:49:34.429Z","updated_at":"2022-06-10T19:49:34.455Z"}},{"id":29,"name":"Giovanni Sornatale","title":"Sales Representative","description":"Three years ago, Giovanni found himself working for a mission oriented start up aiming to rid the world of unnecessary single-use plastic water bottles. Here, he was exposed to the many problems our society and the ecosystems around us face due to climate change and pollution and became fixated on advancing solutions. After this exposure to the world of venture capital, start ups, design thinking, and climate solutions, Giovanni began to search for the best place to explore these verticals and apply his skill set. Since discovering Nori, he spends his days learning about carbon removal and working with the world of businesses who choose to use their platform to build a climate positive future.","published_at":"2021-05-17T17:46:47.774Z","created_at":"2021-05-17T17:46:42.315Z","updated_at":"2021-05-17T17:46:47.791Z","photo":{"id":184,"name":"Screen Shot 2021-05-17 at 10.44.25 AM.png","alternativeText":"","caption":"","width":1554,"height":1396,"formats":{"large":{"ext":".png","url":"static/picture/large_Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8.png","hash":"large_Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8","mime":"image/png","name":"large_Screen Shot 2021-05-17 at 10.44.25 AM.png","path":null,"size":1700.52,"width":1000,"height":898},"small":{"ext":".png","url":"static/picture/small_Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8.png","hash":"small_Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8","mime":"image/png","name":"small_Screen Shot 2021-05-17 at 10.44.25 AM.png","path":null,"size":414.51,"width":500,"height":449},"medium":{"ext":".png","url":"static/picture/medium_Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8.png","hash":"medium_Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8","mime":"image/png","name":"medium_Screen Shot 2021-05-17 at 10.44.25 AM.png","path":null,"size":932.78,"width":750,"height":674},"thumbnail":{"ext":".png","url":"static/picture/thumbnail_Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8.png","hash":"thumbnail_Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8","mime":"image/png","name":"thumbnail_Screen Shot 2021-05-17 at 10.44.25 AM.png","path":null,"size":55.7,"width":174,"height":156}},"hash":"Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8","ext":".png","mime":"image/png","size":3755.05,"url":"static/picture/Screen_Shot_2021_05_17_at_10_44_25_AM_dc87a512c8.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-05-17T17:45:00.690Z","updated_at":"2021-05-17T17:45:00.708Z"}},{"id":12,"name":"Jada Dormaier","title":"Supply Account Manager","description":"Jada works as a Supply Account Manager enrolling farmers in the Nori marketplace. Previously, she worked as a crop insurance agent, insuring the production and revenue of crops across Washington State. She holds a B.S in Economics from Central Washington University and an M.S in Negotiation and Conflict Resolution from Creighton University.","published_at":"2021-03-12T02:00:29.240Z","created_at":"2021-03-10T20:42:31.954Z","updated_at":"2021-05-03T21:17:59.474Z","photo":{"id":118,"name":"20200715_121127.jpeg","alternativeText":"","caption":"","width":1772,"height":1772,"formats":{"large":{"ext":".jpeg","url":"static/picture/large_20200715_121127_274a908763.jpeg","hash":"large_20200715_121127_274a908763","mime":"image/jpeg","name":"large_20200715_121127.jpeg","path":null,"size":110.59,"width":1000,"height":1000},"small":{"ext":".jpeg","url":"static/picture/small_20200715_121127_274a908763.jpeg","hash":"small_20200715_121127_274a908763","mime":"image/jpeg","name":"small_20200715_121127.jpeg","path":null,"size":32.83,"width":500,"height":500},"medium":{"ext":".jpeg","url":"static/picture/medium_20200715_121127_274a908763.jpeg","hash":"medium_20200715_121127_274a908763","mime":"image/jpeg","name":"medium_20200715_121127.jpeg","path":null,"size":65.95,"width":750,"height":750},"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_20200715_121127_274a908763.jpeg","hash":"thumbnail_20200715_121127_274a908763","mime":"image/jpeg","name":"thumbnail_20200715_121127.jpeg","path":null,"size":4.61,"width":156,"height":156}},"hash":"20200715_121127_274a908763","ext":".jpeg","mime":"image/jpeg","size":259.19,"url":"static/picture/20200715_121127_274a908763.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-05-03T21:17:36.544Z","updated_at":"2021-05-03T21:17:36.566Z"}},{"id":4,"name":"Jaycen Horton","title":"Principal Blockchain Architect","description":"Coming from a background focusing on peer to peer and distributed technical architectures, Jaycen Horton has worked as a Lead Software Engineer for Dell, ASU Decision Theater, and MapStory. Additionally, he worked as an Information Security Engineer for companies including Wells Fargo and other smaller start-up companies. He is also currently the co-organizer of the largest blockchain meetup in Arizona.","published_at":"2021-03-12T02:00:33.559Z","created_at":"2021-03-10T20:37:58.484Z","updated_at":"2021-04-05T14:29:21.187Z","photo":{"id":86,"name":"jaycen.jpeg","alternativeText":"","caption":"","width":500,"height":500,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_jaycen_daa19b84e5.jpeg","hash":"thumbnail_jaycen_daa19b84e5","mime":"image/jpeg","name":"thumbnail_jaycen.jpeg","path":null,"size":4.92,"width":156,"height":156}},"hash":"jaycen_daa19b84e5","ext":".jpeg","mime":"image/jpeg","size":34.32,"url":"static/picture/jaycen_daa19b84e5.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:29:11.701Z","updated_at":"2021-04-05T14:29:11.720Z"}},{"id":3,"name":"Paul Gambill","title":"Chief Executive Officer","description":"Paul is the CEO and one of the co-founders of Nori. In 2015, Paul founded the first known community dedicated to carbon removal called Carbon Removal Seattle. Prior to founding Nori, he was a product manager working at various agencies including Deloitte Digital, where he led teams building mobile apps for Fortune 500 clients including Nike, Showtime, Target, and Starbucks. He earned his Bachelor of Science in Engineering degree from Arizona State University, and his Master of Engineering Management degree from Duke University. Follow Paul on Twitter at [twitter.com/paulgambill](https://twitter.com/paulgambill).","published_at":"2021-03-12T02:00:37.309Z","created_at":"2021-03-10T20:36:55.088Z","updated_at":"2021-09-13T18:18:32.073Z","photo":{"id":85,"name":"paul.jpeg","alternativeText":"","caption":"","width":500,"height":500,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_paul_a167b9abc0.jpeg","hash":"thumbnail_paul_a167b9abc0","mime":"image/jpeg","name":"thumbnail_paul.jpeg","path":null,"size":7.69,"width":156,"height":156}},"hash":"paul_a167b9abc0","ext":".jpeg","mime":"image/jpeg","size":50.8,"url":"static/picture/paul_a167b9abc0.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:29:00.086Z","updated_at":"2021-04-05T14:29:00.109Z"}},{"id":24,"name":"Radhika Moolgavkar","title":"Head of Supply and Methodology ","description":"Radhika leads the supply and methodology group at Nori where she is responsible for operationalizing supply into the Nori marketplace and developing new methodologies. Prior to working at Nori, she led the battery-electric bus program at King County Metro. ","published_at":"2021-04-29T12:47:32.608Z","created_at":"2021-04-29T12:47:28.007Z","updated_at":"2021-06-01T20:12:08.096Z","photo":{"id":114,"name":"Radhika.jpg","alternativeText":"","caption":"","width":400,"height":400,"formats":{"thumbnail":{"ext":".jpg","url":"static/picture/thumbnail_Radhika_7a8fb0796b.jpg","hash":"thumbnail_Radhika_7a8fb0796b","mime":"image/jpeg","name":"thumbnail_Radhika.jpg","path":null,"size":4.84,"width":156,"height":156}},"hash":"Radhika_7a8fb0796b","ext":".jpg","mime":"image/jpeg","size":20.81,"url":"static/picture/Radhika_7a8fb0796b.jpg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-29T12:44:18.223Z","updated_at":"2021-04-29T12:44:18.242Z"}},{"id":8,"name":"Rebekah Carlson","title":"Agriculture Supply Lead","description":"Rebekah combines her experience in agronomy, science, and crop modeling to help effectively enroll farmers into the Nori marketplace. She earned her B.S. in Biochemistry from Biola University and M.S. in Agronomy and Plant Genetics from the University of Minnesota.","published_at":"2021-03-12T02:00:48.256Z","created_at":"2021-03-10T20:40:27.865Z","updated_at":"2021-04-29T13:31:51.157Z","photo":{"id":84,"name":"rebekah.jpeg","alternativeText":"","caption":"","width":512,"height":512,"formats":{"small":{"ext":".jpeg","url":"static/picture/small_rebekah_3effdf65b9.jpeg","hash":"small_rebekah_3effdf65b9","mime":"image/jpeg","name":"small_rebekah.jpeg","path":null,"size":28.82,"width":500,"height":500},"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_rebekah_3effdf65b9.jpeg","hash":"thumbnail_rebekah_3effdf65b9","mime":"image/jpeg","name":"thumbnail_rebekah.jpeg","path":null,"size":5.4,"width":156,"height":156}},"hash":"rebekah_3effdf65b9","ext":".jpeg","mime":"image/jpeg","size":26.28,"url":"static/picture/rebekah_3effdf65b9.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:28:35.831Z","updated_at":"2021-04-05T14:28:35.852Z"}},{"id":1,"name":"Richie Farman","title":"Software Engineer","description":"Richard is the first graduate of the Computer Science program at Whitman College, bringing full-stack web development skills along with a liberal arts background. He has developed a passion for designing and developing simple solutions for complex problems using rapid prototypes and agile planning. Richie also has a long held interest in public health and safety, producing multiple multimedia campaigns to promote awareness and prevention of issues like drunk driving and colon cancer, and successfully crowdfunded a microbiome research project examining new diet trends.","published_at":"2021-03-12T02:00:53.814Z","created_at":"2021-03-10T20:34:38.855Z","updated_at":"2022-06-14T23:37:47.073Z","photo":{"id":96,"name":"richie.png","alternativeText":"","caption":"","width":512,"height":512,"formats":{"small":{"ext":".png","url":"static/picture/small_richie_d75266d777.png","hash":"small_richie_d75266d777","mime":"image/png","name":"small_richie.png","path":null,"size":622.92,"width":500,"height":500},"thumbnail":{"ext":".png","url":"static/picture/thumbnail_richie_d75266d777.png","hash":"thumbnail_richie_d75266d777","mime":"image/png","name":"thumbnail_richie.png","path":null,"size":63.17,"width":156,"height":156}},"hash":"richie_d75266d777","ext":".png","mime":"image/png","size":445.41,"url":"static/picture/richie_d75266d777.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:53:20.050Z","updated_at":"2021-04-05T14:53:20.070Z"}},{"id":11,"name":"Ross Kenyon","title":"Creative Editor","description":"Ross Kenyon is a cofounder and Nori's Creative Editor. Ross has had a varied career, working at an academic center and taking PhD coursework in political philosophy before deciding to play with ideas in filmmaking; primarily screenwriting and producing. He has also worked in technology communications in the blockchain space. He currently leads the development of Nori's podcasts and other types of media.","published_at":"2021-03-12T02:00:59.604Z","created_at":"2021-03-10T20:42:00.059Z","updated_at":"2021-04-08T00:35:45.178Z","photo":{"id":98,"name":"Ross Kenyon headshot.JPG","alternativeText":"","caption":"","width":2700,"height":2700,"formats":{"large":{"ext":".JPG","url":"static/picture/large_Ross_Kenyon_headshot_f16d0481dd.jpg","hash":"large_Ross_Kenyon_headshot_f16d0481dd","mime":"image/jpeg","name":"large_Ross Kenyon headshot.JPG","path":null,"size":68.68,"width":1000,"height":1000},"small":{"ext":".JPG","url":"static/picture/small_Ross_Kenyon_headshot_f16d0481dd.jpg","hash":"small_Ross_Kenyon_headshot_f16d0481dd","mime":"image/jpeg","name":"small_Ross Kenyon headshot.JPG","path":null,"size":20.24,"width":500,"height":500},"medium":{"ext":".JPG","url":"static/picture/medium_Ross_Kenyon_headshot_f16d0481dd.jpg","hash":"medium_Ross_Kenyon_headshot_f16d0481dd","mime":"image/jpeg","name":"medium_Ross Kenyon headshot.JPG","path":null,"size":41.08,"width":750,"height":750},"thumbnail":{"ext":".JPG","url":"static/picture/thumbnail_Ross_Kenyon_headshot_f16d0481dd.jpg","hash":"thumbnail_Ross_Kenyon_headshot_f16d0481dd","mime":"image/jpeg","name":"thumbnail_Ross Kenyon headshot.JPG","path":null,"size":3.43,"width":156,"height":156}},"hash":"Ross_Kenyon_headshot_f16d0481dd","ext":".JPG","mime":"image/jpeg","size":418.23,"url":"static/picture/Ross_Kenyon_headshot_f16d0481dd.jpg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-08T00:31:26.207Z","updated_at":"2021-04-08T00:31:26.229Z"}},{"id":9,"name":"Scott Hoffberg Wilson","title":"Head of Engineering","description":"Scott currently leads the engineering team at Nori.  His career has spanned a number of nonprofit, social good and healthcare organizations.  He was most recently a software architect with Salesforce.org and prior to that was the founding CTO of AlayaCare -- now the market leader in Canadian home-based healthcare technology.  Outside of work Scott loves baking, gardening, tinkering with 3D printers and CNC machines and spending time outside with his family.","published_at":"2021-03-12T02:00:08.324Z","created_at":"2021-03-10T20:41:26.965Z","updated_at":"2021-12-18T01:10:24.124Z","photo":{"id":112,"name":"Scott_Hoffberg_Wilson.png","alternativeText":"","caption":"","width":300,"height":300,"formats":{"thumbnail":{"ext":".png","url":"static/picture/thumbnail_Scott_Hoffberg_Wilson_0e9e8af8df.png","hash":"thumbnail_Scott_Hoffberg_Wilson_0e9e8af8df","mime":"image/png","name":"thumbnail_Scott_Hoffberg_Wilson.png","path":null,"size":5.66,"width":156,"height":156}},"hash":"Scott_Hoffberg_Wilson_0e9e8af8df","ext":".png","mime":"image/png","size":15.36,"url":"static/picture/Scott_Hoffberg_Wilson_0e9e8af8df.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-22T17:08:46.183Z","updated_at":"2021-04-22T17:08:46.207Z"}}]},{"__component":"layouts.section","id":22,"backgroundColor":"black/white","theme":"light","backgroundImage":null},{"__component":"elements.header","id":56,"title":"Our Advisors","subtitle":null,"tagline":null},{"__component":"collections.norinauts-collection","id":3,"norinauts":[{"id":21,"name":"Aldyen Donnelly","title":"Director of Carbon Economics","description":"Aldyen Donnelly is a cofounder of Nori, and has been a small business developer and consultant for over 40 years. In the mid-1990s, Aldyen started to work on market-driven strategies to reduce atmospheric carbon concentrations. Having gathered together an \"emission reduction credit\" or \"ERC\" buyers group, Aldyen developed and executed the world's first major forward ERC purchase agreement to finance carbon sequestration in agricultural soils, as well as the first ERC sales-financed carbon capture and storage project. ","published_at":"2021-04-05T14:48:40.850Z","created_at":"2021-04-05T14:48:36.632Z","updated_at":"2022-01-25T03:09:31.950Z","photo":{"id":95,"name":"aldyen.jpeg","alternativeText":"","caption":"","width":500,"height":500,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_aldyen_495e5be838.jpeg","hash":"thumbnail_aldyen_495e5be838","mime":"image/jpeg","name":"thumbnail_aldyen.jpeg","path":null,"size":6.42,"width":156,"height":156}},"hash":"aldyen_495e5be838","ext":".jpeg","mime":"image/jpeg","size":41.16,"url":"static/picture/aldyen_495e5be838.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:48:32.078Z","updated_at":"2021-04-05T14:48:32.098Z"}},{"id":14,"name":"Bob Beth","title":"Integrative Visionary","description":"Bob Beth is a life long tech startup guy and integrative visionary as well as an adventurer and South Pacific sailor. His pioneering involvement with software began in 1974 and he has led the invention of several software products in advanced computing environments.  Bob received his degree in Economics from UC Berkeley with an emphasis on market formation.\n\nSeveral of his advanced computing customers have been change makers in the financial markets, including at the outset of program trading and derivatives.\n\nThrough his involvement with the World Business Academy, an early climate change think tank and action incubator, Bob acts as a Special Advisor to the Academy’s bold Clean Energy Moonshot for California. He collaborates globally with thought leaders exploring backing cryptocurrencies with improvements in our planet’s natural capital.  Bob is currently the co-founder of the Impact Procurement Network. ","published_at":"2021-04-05T14:35:21.505Z","created_at":"2021-04-05T14:35:17.312Z","updated_at":"2021-04-05T14:35:21.569Z","photo":{"id":88,"name":"bob-beth.jpeg","alternativeText":"","caption":"","width":500,"height":500,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_bob_beth_10936c240f.jpeg","hash":"thumbnail_bob_beth_10936c240f","mime":"image/jpeg","name":"thumbnail_bob-beth.jpeg","path":null,"size":4.72,"width":156,"height":156}},"hash":"bob_beth_10936c240f","ext":".jpeg","mime":"image/jpeg","size":26.07,"url":"static/picture/bob_beth_10936c240f.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:35:12.788Z","updated_at":"2021-04-05T14:35:12.806Z"}},{"id":15,"name":"David Addison","title":"Carbon Removal, Innovation and Net Zero Manager","description":"David Addison works for [Virgin](https://www.virgin.com/) on climate action, innovation, purpose and sustainability. For more than 8 years he managed the [Virgin Earth Challenge](https://www.virgin.com/about-virgin/virgin-group/news/virgin-earth-challenge): Sir Richard Branson’s USD $25 million innovation prize for scalable and sustainable ways of removing greenhouse gases from the atmosphere and permanently sequestering them.\n\nHe is a co-founder of the non-profit UK-based [Carbon Removal Centre](https://carbonremovalcentre.com/); volunteers in an advisory role to [ClimateScience](https://climatescience.org/) – making learning about climate change accessible and fun for all; served as an advisor to [Carbon180](https://carbon180.org/) from its inception; and was part of the community of advisors to the [New York Times Best Seller: Drawdown:](https://www.drawdown.org/the-book) the most comprehensive plan ever proposed to reverse global warming.\n\nDavid also serves as a member of the jury of the annual German Energy Agency’s [Startup Energy Transition Award](https://www.startup-energy-transition.com/); and was formerly Vice Chair of the Board of Directors for [Student Energy:](https://studentenergy.org/) a global charity inspiring the next generation of leaders to unlock a sustainable energy future.","published_at":"2021-04-05T14:35:56.187Z","created_at":"2021-04-05T14:35:52.319Z","updated_at":"2021-06-11T18:52:57.866Z","photo":{"id":230,"name":"DA photo for CRC.jpeg","alternativeText":"","caption":"","width":373,"height":373,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_DA_photo_for_CRC_3f3868e742.jpeg","hash":"thumbnail_DA_photo_for_CRC_3f3868e742","mime":"image/jpeg","name":"thumbnail_DA photo for CRC.jpeg","path":null,"size":5.65,"width":156,"height":156}},"hash":"DA_photo_for_CRC_3f3868e742","ext":".jpeg","mime":"image/jpeg","size":23.79,"url":"static/picture/DA_photo_for_CRC_3f3868e742.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-06-11T18:52:50.311Z","updated_at":"2021-06-11T18:52:50.333Z"}},{"id":16,"name":"Gillian Muessig","title":"CEO of Outlines Venture Group","description":"Gillian is the CEO of Outlines Venture Group and General Partner of the Sybilla Masters Fund. She is also the cofounder of Moz, the world's most popular provider of digital marketing software and analytics and brettapproved, the world's fastest growing site for travelers with disabilities and mobility challenges.\n\nAn investor, advisor, and board member on four continents, Gillian serves as a mentor at numerous accelterators and programs including the German Marshall Fund of the U.S. State Department, TechStars, Microsoft Azure, Women in Cloud, and Chinaccelerator. Over the course of her career, she has helped more than 1,000 companies to launch, grow, pivot and thrive.","published_at":"2021-04-05T14:38:25.712Z","created_at":"2021-04-05T14:38:12.058Z","updated_at":"2021-04-05T14:38:25.740Z","photo":{"id":90,"name":"gillian_muessig.jpeg","alternativeText":"","caption":"","width":432,"height":432,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_gillian_muessig_22687d5ac0.jpeg","hash":"thumbnail_gillian_muessig_22687d5ac0","mime":"image/jpeg","name":"thumbnail_gillian_muessig.jpeg","path":null,"size":4.97,"width":156,"height":156}},"hash":"gillian_muessig_22687d5ac0","ext":".jpeg","mime":"image/jpeg","size":20.94,"url":"static/picture/gillian_muessig_22687d5ac0.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:38:18.070Z","updated_at":"2021-04-05T14:38:18.091Z"}},{"id":17,"name":"James Lancelot","title":"Digital Marketing \u0026 Analytics Expert","description":"James Lancelot is a veteran of the Marketing Technology space. James has earned degrees from the University of Florida in Marketing, Entrepreneurship and a Master's of International Business. James also holds an Executive MBA from Babson. James has had the pleasure of working at Right Media (Acquired by Yahoo), Turn (Acquired by Singtel) and Invite Media (Acquired by Google). James now heads up the Strategic Engagement Group at Google. This group helps the world's most advanced marketers build differentiated marketing and analytics practices. He is an advisor and investor in the Green Tech Space and is currently helping amazing companies in AgTech (Wexus), Solar (PickMySolar) and Carbon Removal (Nori). James lives with his cherished family in San Francisco. James is also a living kidney donor.","published_at":"2021-04-05T14:39:39.316Z","created_at":"2021-04-05T14:39:35.663Z","updated_at":"2021-04-05T14:39:39.353Z","photo":{"id":91,"name":"james-lancelot.jpeg","alternativeText":"","caption":"","width":500,"height":500,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_james_lancelot_1c41128576.jpeg","hash":"thumbnail_james_lancelot_1c41128576","mime":"image/jpeg","name":"thumbnail_james-lancelot.jpeg","path":null,"size":5.43,"width":156,"height":156}},"hash":"james_lancelot_1c41128576","ext":".jpeg","mime":"image/jpeg","size":34.75,"url":"static/picture/james_lancelot_1c41128576.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:39:33.101Z","updated_at":"2021-04-05T14:39:33.122Z"}},{"id":18,"name":"KD Hallman","title":"Environmentalist, Philanthropist \u0026 Investor","description":"K.D. is an accredited investor with E8 and Alliance of Angels, a strategic advisor and board member for environmental startups, and a Northwest Conservation fellow. She is on the national council for Earthjustice and the Conservation Committee for The Nature Conservancy. K.D. is a retired Microsoft vice president with a passion for addressing environmental issues.\n\nK.D. brings to the environmental space the experiences, talents, and skills developed during her 35+ year career in the global software industry. During her nearly 25-year tenure at Microsoft, K.D. held both software and/or hardware leadership positions in Office, Windows, Visual Studio, and Research. K.D. served as a corporate technical strategist where she was an advisor to Microsoft’s CEO’s was responsible for setting Microsoft’s semiconductor vision, strategy, and architecture.\n\nAmong her most notable accomplishments include deal lead for various acquisitions and industry impacting efforts such as the 2010 ARM architecture license, 2015-2016 Nokia (semiconductor), and Perceptive Pixels, Inc. K.D. led the development efforts in Natural Language technology which transformed how humans interact with computers through written and spoken human languages. She has a knack for building high performing, high morale teams. She holds over 25 US and European patents.","published_at":"2021-04-05T14:40:26.197Z","created_at":"2021-04-05T14:40:22.326Z","updated_at":"2021-04-05T14:40:26.233Z","photo":{"id":92,"name":"KD-hallman.jpeg","alternativeText":"","caption":"","width":500,"height":500,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_KD_hallman_753b853cf7.jpeg","hash":"thumbnail_KD_hallman_753b853cf7","mime":"image/jpeg","name":"thumbnail_KD-hallman.jpeg","path":null,"size":5.31,"width":156,"height":156}},"hash":"KD_hallman_753b853cf7","ext":".jpeg","mime":"image/jpeg","size":28.64,"url":"static/picture/KD_hallman_753b853cf7.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:40:19.381Z","updated_at":"2021-04-05T14:40:19.441Z"}},{"id":20,"name":"Ramez Naam","title":"Angel investor, public speaker and award-winning author","description":"Ramez Naam is a computer scientist, investor, and award-winning author of five books, including The Infinite Resource: The Power of Ideas on a Finite Planet, which charts a path to innovating our way beyond the challenges of climate change, ocean destruction, food, water, energy, population, and more.\n\nRamez is the Co-Chair for Energy and Environment at Singularity University at NASA Ames. He speaks around the world on innovation, exponential technology, solving environmental challenges, and disruptive energy technologies.\n\nRamez’s seminal 2011 Scientific American article, “Smaller, Cheaper, Faster” observed that the price of solar power was dropping exponentially and would eventually be lower than that of any other energy source. He’s since detailed the exponential trends in wind power, energy storage, and electric vehicles. His observations have been quoted by Nobel laureate Paul Krugman and by energy, climate, and financial analysts around the world. Ramez’s work has appeared in or been quoted in The New York Times, The Wall Street Journal, The Economist, The Atlantic, Slate, Business Week, Discover, Wired, and Scientific American.\n\nIn addition to his energy analysis, Ramez is an angel investor in numerous clean energy startups, a board member of E8 Angels, and the founder and leader of the first AngelList syndicate devoted to clean technology.","published_at":"2021-04-05T14:42:23.477Z","created_at":"2021-04-05T14:42:20.021Z","updated_at":"2021-08-12T19:58:18.131Z","photo":{"id":94,"name":"ramez-naam.jpeg","alternativeText":"","caption":"","width":500,"height":500,"formats":{"thumbnail":{"ext":".jpeg","url":"static/picture/thumbnail_ramez_naam_db556065d2.jpeg","hash":"thumbnail_ramez_naam_db556065d2","mime":"image/jpeg","name":"thumbnail_ramez-naam.jpeg","path":null,"size":4.79,"width":156,"height":156}},"hash":"ramez_naam_db556065d2","ext":".jpeg","mime":"image/jpeg","size":25.65,"url":"static/picture/ramez_naam_db556065d2.jpeg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-04-05T14:41:37.198Z","updated_at":"2021-04-05T14:41:37.215Z"}}]},{"__component":"layouts.section","id":23,"backgroundColor":"gray","theme":"light","backgroundImage":null},{"__component":"widgets.newsletter-widget","id":2,"title":"Stay up to date with our newsletter","subtitle":"Each week, Nori offers insights and shares success stories on how removing excess carbon dioxide from the atmosphere is impacting our climate, and details on our marketplace progress and buildout for launch.","input":{"id":2,"name":"Email address","placeholder":"Email address","label":"Sign up to ensure you don’t miss an issue."},"button":{"id":14,"label":"Subscribe to Newsletter","url":"https://share.hsforms.com/11f-FBP-OTUSfvFkwllT4oQ3rvhm","variant":"button","color":"primary"},"socialMedia":{"id":1,"title":"Or just say hello!","description":"You can email us at hello@nori.com.","socialMedias":[{"id":1,"title":"Facebook","handle":null,"url":"https://www.facebook.com/NoriCarbonRemoval/","published_at":"2021-03-17T05:00:50.326Z","created_at":"2021-03-17T04:59:29.430Z","updated_at":"2022-07-14T17:51:25.942Z","icon":{"id":36,"name":"facebook.png","alternativeText":"","caption":"","width":96,"height":96,"formats":{},"hash":"facebook_81cf481374","ext":".png","mime":"image/png","size":0.42,"url":"static/picture/facebook_81cf481374.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-03-18T19:49:57.817Z","updated_at":"2022-07-14T17:51:22.419Z"}},{"id":2,"title":"Twitter","handle":"@nori","url":"https://twitter.com/nori","published_at":"2021-03-17T05:01:31.121Z","created_at":"2021-03-17T05:01:25.483Z","updated_at":"2022-07-14T17:52:08.347Z","icon":{"id":31,"name":"twitter.png","alternativeText":"","caption":"","width":96,"height":96,"formats":{},"hash":"twitter_f810a38518","ext":".png","mime":"image/png","size":0.97,"url":"static/picture/twitter_f810a38518.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-03-18T19:49:57.653Z","updated_at":"2022-07-14T17:52:06.155Z"}},{"id":3,"title":"YouTube","handle":null,"url":"https://www.youtube.com/channel/UCnNvzB1J0HZVyO-v6eIWjDA/featured","published_at":"2021-03-17T05:01:53.927Z","created_at":"2021-03-17T05:01:50.083Z","updated_at":"2022-07-14T17:52:23.087Z","icon":{"id":33,"name":"youtube.png","alternativeText":"","caption":"","width":96,"height":96,"formats":{},"hash":"youtube_6d5d1ca6dc","ext":".png","mime":"image/png","size":0.69,"url":"static/picture/youtube_6d5d1ca6dc.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-03-18T19:49:57.792Z","updated_at":"2022-07-14T17:52:19.714Z"}},{"id":4,"title":"Instagram","handle":"@noricarbonremoval","url":"https://www.instagram.com/noricarbonremoval","published_at":"2021-03-18T19:42:21.415Z","created_at":"2021-03-18T19:42:17.118Z","updated_at":"2022-07-14T17:51:39.576Z","icon":{"id":37,"name":"instagram.png","alternativeText":"","caption":"","width":96,"height":96,"formats":{},"hash":"instagram_f766a967b8","ext":".png","mime":"image/png","size":1.18,"url":"static/picture/instagram_f766a967b8.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-03-18T19:49:57.888Z","updated_at":"2022-07-14T17:51:37.214Z"}},{"id":6,"title":"LinkedIn","handle":"@noricarbonremoval","url":"https://www.linkedin.com/company/noricarbonremoval/","published_at":"2021-03-18T19:52:56.910Z","created_at":"2021-03-18T19:52:53.453Z","updated_at":"2022-07-14T17:51:54.080Z","icon":{"id":38,"name":"linkedin.png","alternativeText":"","caption":"","width":96,"height":96,"formats":{},"hash":"linkedin_eb3333cd74","ext":".png","mime":"image/png","size":0.67,"url":"static/picture/linkedin_eb3333cd74.png","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-03-18T19:52:50.190Z","updated_at":"2022-07-14T17:51:51.658Z"}}]}}],"hero":{"id":6,"theme":"light","bottomPadding":"large","buttons":[],"media":null,"header":{"id":17,"title":"Nori is Reversing Climate Change","subtitle":"We're creating a way for anyone in the world to buy carbon removals","tagline":null},"backgroundImage":null},"seo":{"id":19,"title":"About Nori","description":"Nori is on a mission to reverse climate change. Our goal is clear - create a new way for anyone in the world to buy carbon removals. We're doing that through the Nori carbon removal marketplace.","twitterCardType":null,"twitterHandle":null,"twitterSite":null,"images":[{"id":215,"name":"Unfurl-general.jpg","alternativeText":"","caption":"","width":1200,"height":627,"formats":{"large":{"ext":".jpg","url":"static/picture/large_Unfurl_general_d8635aa8fb.jpg","hash":"large_Unfurl_general_d8635aa8fb","mime":"image/jpeg","name":"large_Unfurl-general.jpg","path":null,"size":40.45,"width":1000,"height":523},"small":{"ext":".jpg","url":"static/picture/small_Unfurl_general_d8635aa8fb.jpg","hash":"small_Unfurl_general_d8635aa8fb","mime":"image/jpeg","name":"small_Unfurl-general.jpg","path":null,"size":14.86,"width":500,"height":261},"medium":{"ext":".jpg","url":"static/picture/medium_Unfurl_general_d8635aa8fb.jpg","hash":"medium_Unfurl_general_d8635aa8fb","mime":"image/jpeg","name":"medium_Unfurl-general.jpg","path":null,"size":26.24,"width":750,"height":392},"thumbnail":{"ext":".jpg","url":"static/picture/thumbnail_Unfurl_general_d8635aa8fb.jpg","hash":"thumbnail_Unfurl_general_d8635aa8fb","mime":"image/jpeg","name":"thumbnail_Unfurl-general.jpg","path":null,"size":4.98,"width":245,"height":128}},"hash":"Unfurl_general_d8635aa8fb","ext":".jpg","mime":"image/jpeg","size":52.63,"url":"static/picture/Unfurl_general_d8635aa8fb.jpg","previewUrl":null,"provider":"google-cloud-storage","provider_metadata":null,"created_at":"2021-06-07T16:36:29.514Z","updated_at":"2022-02-07T17:24:38.386Z"}],"videos":[]}},"__N_SSG":true},"page":"/[[...slug]]","query":{"slug":["about"]},"buildId":"xy_4mH-Efs8sPPRkaOwQF","assetPrefix":"/_marketing-assets","runtimeConfig":{"SPLIT_IO_FLAGS_SERVER_LOCAL_CONFIG":"/app/src/.split","SPLIT_IO_FLAGS_CLIENT_LOCAL_CONFIG":{"web3":"on","fifo-token-checkout":"on"},"SPLIT_IO_FLAGS_CLIENT_KEY":"7q8em6jks0h2k9gtcdd913lkig0ob3nebd9o","SPLIT_IO_FLAGS_SERVER_KEY":"tcvg075v9or6bj69be3tqqb49ki5qiabu0l1","preOrderUrl":"https://noricarbon.typeform.com/noripreorder","service":"marketing","nodeEnv":"production","noriEnv":"production","relaySSR":true,"release":"be1440e3de0737684748b2afe5067c067a57914b","endpoints":{"graphql":"http://graphql-svc-prod/graphql","wsGraphql":"wss://nori.com/graphql"},"firebaseConfig":{"apiKey":"AIzaSyAvvn-EV1f7Jr12kPOULz8TvDl3tW0Ym8o","authDomain":"nori-website-test.firebaseapp.com","databaseURL":"https://nori-website-test.firebaseio.com","projectId":"nori-website-test","storageBucket":"nori-website-test.appspot.com","messagingSenderId":"483620419650"},"purchase":{"minTonnes":1,"maxTonnes":10000,"defaultTonnes":16}},"isFallback":false,"gsp":true,"appGip":true}</script><script nomodule="" src="static/js/polyfills-3bc4c361cad775edd555.js"></script><script src="static/js/webpack-4ad390ed4b8a68301a0d.js" async=""></script><script src="static/js/framework.4cc288fdcf02e7d0b3dc.js" async=""></script><script src="static/js/commons.cbec91cdb240ac900ff1.js" async=""></script><script src="static/js/main-e4624c4e36b30759267f.js" async=""></script><script src="static/js/b411391c.573e1ede1690c4141f8a1.js" async=""></script><script src="static/js/e1c8d10c39143c810516caa2e738bbadbece5663.34c261700ba704219c9b1.js" async=""></script><script src="static/js/f426415fb15060621351c26187c9609b3d16cb9b.21aaa074858ab0c41f181.js" async=""></script><script src="static/js/_app-82f5fce31ffa3a58880a.js" async=""></script><script src="static/js/2c8b5cf90d6288e8bc5de6f7e55812b1965a3f67.f212022872461db00151.js" async=""></script><script src="static/js/88a586aef2e58ecf92adc24e7343a42817355e7a.9b4bb064f49946e21c6b.js" async=""></script><script src="static/js/4d3bc390c9785b523019e2570b3f9512feb42ef3.b05b42ece49c52b8ab2a.js" async=""></script><script src="static/js/758f71b0dea88f7643692cf13c7cf9998abe6924.375c411da350da46ca5d.js" async=""></script><script src="static/js/2d3a68b186ecaaedde7bf20839472a666e9c078d.a6bf54e56462ca665907.js" async=""></script><script src="static/js/[[...slug]]-adf2c3f1532c79ec8428.js" async=""></script><script src="static/js/_buildManifest1.js" async=""></script><script src="static/js/_ssgManifest.js" async=""></script></body></html>
